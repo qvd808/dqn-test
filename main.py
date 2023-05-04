@@ -5,9 +5,9 @@ import torch
 import torch.optim as optim
 import numpy as np
 
+device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
-env = gym.make('CartPole-v1', render_mode = "human")
-
+env = gym.make('CartPole-v1')
 # net = NeuralNet(4 , 2)
 
 # scores_deque = deque(maxlen=100)
@@ -65,16 +65,16 @@ env = gym.make('CartPole-v1', render_mode = "human")
 # torch.save(net.state_dict(), 'model_weights_cartpole.pth')
 
 
-policy = NeuralNet(4, 2)
+policy = NeuralNet(4, 2).to(device)
 optimizer = optim.Adam(policy.parameters(), lr = 0.01)
-n_training_episodes = 1000
+n_training_episodes = 2500
 max_t = 1000
 gamma = 1
 print_every = 100
 
 def reinforce(policy, optimizer, n_training_episodes, max_t, gamma, print_every):
     # Help us to calculate the score during the training
-    scores_deque = deque(maxlen=100)
+    scores_deque = deque(maxlen=400)
     scores = []
     # Line 3 of pseudocode
     for i_episode in range(1, n_training_episodes+1):
@@ -95,6 +95,11 @@ def reinforce(policy, optimizer, n_training_episodes, max_t, gamma, print_every)
         # Line 6 of pseudocode: calculate the return
         returns = deque(maxlen=max_t) 
         n_steps = len(rewards) 
+
+
+        if np.mean(scores_deque) == max_t:
+            torch.save(policy.state_dict(), 'model_weights_cartpole_1000.pth')
+
         # Compute the discounted returns at each timestep,
         # as 
         #      the sum of the gamma-discounted return at time t (G_t) + the reward at time t
