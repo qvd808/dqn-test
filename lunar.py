@@ -29,4 +29,4 @@ if __name__ == "__main__":
 
         print(f'episode {i} scores {score} average score {avg_score}, epsilon {agent.epsilon}')
     
-    
+    agent.save()

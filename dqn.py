@@ -4,6 +4,19 @@ import torch.nn.functional as F
 from torch.distributions import Categorical
 import torch.optim as optim
 import numpy as np
+from dataclasses import dataclass
+from random import sample
+from collections import deque
+
+@dataclass
+class Sars:
+    state: any
+    action: int
+    reward: float
+    next_state: any
+    done: bool
+
+
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
@@ -75,8 +88,6 @@ class DeepQNetwork(nn.Module):
 
         return actions
 
-    def save(self):
-        torch.save()
     
 
 class Agent():
@@ -117,6 +128,12 @@ class Agent():
             action = np.random.choice(self.action_space)
         
         return action
+
+    def choose_action_final(self, observation):
+        state = torch.tensor([observation]).to(self.Q_eval.device)
+        actions = self.Q_eval.forward(state)
+        action  = torch.argmax(actions).item()    
+        return action
     
     def learn(self):
         if self.mem_cntr < self.batch_size:
@@ -145,3 +162,50 @@ class Agent():
             self.Q_eval.optimizer.step()
 
             self.epsilon = self.epsilon - self.eps_dec if self.epsilon > self.eps_min else self.eps_min
+    
+    def save(self):
+        torch.save(self.Q_eval.state_dict(), "lunar-lander.pth")
+
+
+class RelayBuffer:
+    def __init__(self, buffer_size = 100000) -> None:
+        self.buffer_size = buffer_size
+        self.buffer = deque(maxlen=buffer_size)
+
+    def insert(self, sars):
+        self.buffer.append(sars)
+    
+    def sample(self, num_samples):
+        return sample(self.buffer, num_samples)
+
+
+class Model_Cartpole(nn.Module):
+    def __init__(self, obs_shape, n_actions) -> None:
+        super(Model_Cartpole, self).__init__()
+        self.obs_shape = obs_shape
+        self.n_actions = n_actions
+
+        self.net = torch.nn.Sequential(
+            torch.nn.Linear(obs_shape, 256),
+            torch.nn.ReLU(),
+            torch.nn.Linear(256, n_actions)
+        )
+
+        self.optim = optim.Adam(self.parameters(),lr=0.0001)
+
+    def forward(self, x):
+        return self.net(x)
+    
+
+class Agent_Cartpole:
+    def __init__(self, model) -> None:
+        self.model = model
+    
+    def get_actions(self, obs):
+        #obs shape is (N, 4)
+        q_val = self.model(obs)
+
+        # q_vals is (N, 2)
+
+        return q_val.max(-1)[0]
+    

@@ -1,0 +1,6 @@
+0it [00:00, ?it/s]C:\Users\dqvin\anaconda3\envs\pygame_env\lib\site-packages\gym\utils\passive_env_checker.py:233: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  if not isinstance(terminated, (bool, np.bool8)):
+9294it [00:00, 81147.29it/s]Traceback (most recent call last):
+  File "cartpole.py", line 77, in <module>
+    action = m(torch.Tensor(last_obs)).item()
+ValueError: only one element tensors can be converted to Python scalars

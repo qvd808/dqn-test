@@ -20,7 +20,7 @@ import numpy as np
 #####################################################################
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 model = NeuralNet(4 , 2).to(device)
-model.load_state_dict(torch.load('model_weights_cartpole.pth'))
+model.load_state_dict(torch.load('model_weights_cartpole_1000.pth'))
 
 env = gym.make('CartPole-v1', render_mode = "human")
 
