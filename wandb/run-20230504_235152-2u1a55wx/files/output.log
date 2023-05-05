@@ -1,0 +1,142 @@
+0it [00:00, ?it/s]C:\Users\dqvin\anaconda3\envs\pygame_env\lib\site-packages\gym\utils\passive_env_checker.py:233: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  if not isinstance(terminated, (bool, np.bool8)):
+
+
+
+25585it [00:07, 2126.91it/s]
+
+
+
+
+38888it [00:15, 1674.14it/s]
+
+
+
+
+
+
+58182it [00:27, 1850.12it/s]
+
+
+
+
+
+71410it [00:37, 1345.70it/s]
+
+
+
+
+
+87166it [00:48, 1410.09it/s]
+
+
+
+
+
+99959it [00:57, 1388.74it/s]
+
+
+
+
+
+
+115648it [01:09, 1283.22it/s]
+
+
+121820it [01:14, 1262.19it/s]C:\Users\dqvin\anaconda3\envs\pygame_env\lib\site-packages\numpy\core\fromnumeric.py:3464: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+C:\Users\dqvin\anaconda3\envs\pygame_env\lib\site-packages\numpy\core\_methods.py:192: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+
+
+
+131199it [01:22, 1334.77it/s]
+
+
+
+
+
+
+147831it [01:36, 1271.62it/s]
+
+
+
+
+
+
+162411it [01:48, 1261.44it/s]
+
+
+
+
+
+
+177056it [02:00, 1820.91it/s]
+
+
+
+
+
+
+191718it [02:12, 1151.10it/s]
+
+
+
+
+
+
+
+208467it [02:26, 1153.99it/s]
+
+
+
+
+
+
+224223it [02:38, 1210.60it/s]
+
+
+
+
+
+236444it [02:48, 1327.91it/s]
+
+
+
+
+
+
+
+254715it [03:02, 1248.58it/s]
+
+
+
+
+
+
+268796it [03:14, 1115.08it/s]
+
+
+
+
+
+
+284025it [03:26, 972.48it/s]
+
+
+
+
+
+
+297830it [03:38, 1179.74it/s]
+
+
+
+
+
+
+
+315075it [03:52, 1090.48it/s]
+
+
+318658it [03:56, 1028.22it/s]

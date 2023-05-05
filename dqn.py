@@ -170,12 +170,18 @@ class Agent():
 class RelayBuffer:
     def __init__(self, buffer_size = 100000) -> None:
         self.buffer_size = buffer_size
-        self.buffer = deque(maxlen=buffer_size)
+        # self.buffer = deque(maxlen=buffer_size)
+        self.buffer = [None] * buffer_size
+        self.idx = 0
 
     def insert(self, sars):
-        self.buffer.append(sars)
+        self.buffer[self.idx % self.buffer_size] = sars
+        self.idx += 1
+        # self.buffer.append(sars)
     
     def sample(self, num_samples):
+        if self.idx < self.buffer_size:
+            return sample(self.buffer[:self.idx], num_samples)
         return sample(self.buffer, num_samples)
 
 

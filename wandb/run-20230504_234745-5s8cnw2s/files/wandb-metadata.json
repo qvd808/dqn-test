@@ -1,0 +1,50 @@
+{
+    "os": "Windows-10-10.0.22621-SP0",
+    "python": "3.8.15",
+    "heartbeatAt": "2023-05-05T06:47:48.950135",
+    "startedAt": "2023-05-05T06:47:45.716364",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "cartpole.py",
+    "codePath": "cartpole.py",
+    "git": {
+        "remote": null,
+        "commit": "6266d6df6cd7e408086689acc32639d125c91f9c"
+    },
+    "email": "dqvinh808@gmail.com",
+    "root": "D:/Programming/project/MsPacman",
+    "host": "sptrodon",
+    "username": "dqvin",
+    "executable": "C:\\Users\\dqvin\\anaconda3\\envs\\pygame_env\\python.exe",
+    "cpu_count": 14,
+    "cpu_count_logical": 20,
+    "cpu_freq": {
+        "current": 2300.0,
+        "min": 0.0,
+        "max": 2300.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2300.0,
+            "min": 0.0,
+            "max": 2300.0
+        }
+    ],
+    "disk": {
+        "total": 953.8671836853027,
+        "used": 145.44438552856445
+    },
+    "gpu": "NVIDIA GeForce RTX 3070 Ti Laptop GPU",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3070 Ti Laptop GPU",
+            "memory_total": 8589934592
+        }
+    ],
+    "memory": {
+        "total": 15.6693115234375
+    }
+}

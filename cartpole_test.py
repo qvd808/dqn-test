@@ -22,7 +22,7 @@ eps_decay = 0.9999955
 
 obs = env.reset()[0]
 m = Model_Cartpole(env.observation_space.shape[0], env.action_space.n)
-m.load_state_dict(torch.load("cartpole_youtube.pth"))
+m.load_state_dict(torch.load("cartpole_withtargetmodel_ultimate.pth"))
 
 rb = RelayBuffer()
 steps_since_train = 0
@@ -46,16 +46,19 @@ try:
         obs, reward, done, terminate, info = env.step(action)
         rolling_reward += reward
 
-        reward = reward / 100.0
 
         rb.insert(Sars(last_obs, action, reward, obs, done))
 
+        if rolling_reward == 500:
+            break
 
 
         if done:
             episode_rewards.append(rolling_reward)
             rolling_reward = 0
-            obs = env.reset()[0]
+            # obs = env.reset()[0]
+            print(rolling_reward)
+            break
 
         steps_since_train += 1
         step_num += 1

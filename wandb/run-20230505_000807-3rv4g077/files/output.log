@@ -1,0 +1,10 @@
+0it [00:00, ?it/s]C:\Users\dqvin\anaconda3\envs\pygame_env\lib\site-packages\gym\utils\passive_env_checker.py:233: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  if not isinstance(terminated, (bool, np.bool8)):
+Traceback (most recent call last):
+  File "cartpole.py", line 101, in <module>
+    loss = train_step(m, rb.sample(sample_size), tgt, env.action_space.n, device)
+  File "D:\Programming\project\MsPacman\dqn.py", line 183, in sample
+    return sample(self.buffer[:self.idx], num_samples)
+  File "C:\Users\dqvin\anaconda3\envs\pygame_env\lib\random.py", line 363, in sample
+    raise ValueError("Sample larger than population or is negative")
+ValueError: Sample larger than population or is negative
