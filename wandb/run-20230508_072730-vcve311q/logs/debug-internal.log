@@ -1,0 +1,1523 @@
+2023-05-08 07:27:30,909 INFO    StreamThr :453 [internal.py:wandb_internal():88] W&B internal server running at pid: 453, started at: 2023-05-08 07:27:30.908050
+2023-05-08 07:27:30,911 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: status
+2023-05-08 07:27:30,912 DEBUG   SenderThread:453 [sender.py:send_request():317] send_request: status
+2023-05-08 07:27:30,914 DEBUG   SenderThread:453 [sender.py:send():303] send: header
+2023-05-08 07:27:30,914 INFO    WriterThread:453 [datastore.py:open_for_write():75] open: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/run-vcve311q.wandb
+2023-05-08 07:27:30,923 DEBUG   SenderThread:453 [sender.py:send():303] send: run
+2023-05-08 07:27:31,261 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: check_version
+2023-05-08 07:27:31,295 INFO    SenderThread:453 [dir_watcher.py:__init__():216] watching files in: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files
+2023-05-08 07:27:31,296 INFO    SenderThread:453 [sender.py:_start_run_threads():928] run started: vcve311q with start time 1683530850.902227
+2023-05-08 07:27:31,296 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:27:31,297 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:27:31,297 DEBUG   SenderThread:453 [sender.py:send_request():317] send_request: check_version
+2023-05-08 07:27:31,351 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: run_start
+2023-05-08 07:27:31,361 DEBUG   HandlerThread:453 [meta.py:__init__():34] meta init
+2023-05-08 07:27:31,361 DEBUG   HandlerThread:453 [meta.py:__init__():49] meta init done
+2023-05-08 07:27:31,361 DEBUG   HandlerThread:453 [meta.py:probe():215] probe
+2023-05-08 07:27:31,374 DEBUG   HandlerThread:453 [meta.py:_setup_git():205] setup git
+2023-05-08 07:27:31,387 DEBUG   HandlerThread:453 [meta.py:_setup_git():212] setup git done
+2023-05-08 07:27:31,388 DEBUG   HandlerThread:453 [meta.py:_save_pip():53] save pip
+2023-05-08 07:27:31,389 DEBUG   HandlerThread:453 [meta.py:_save_pip():67] save pip done
+2023-05-08 07:27:31,389 DEBUG   HandlerThread:453 [meta.py:probe():253] probe done
+2023-05-08 07:27:31,562 DEBUG   SenderThread:453 [sender.py:send():303] send: files
+2023-05-08 07:27:31,563 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2023-05-08 07:27:31,568 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: stop_status
+2023-05-08 07:27:31,569 DEBUG   SenderThread:453 [sender.py:send_request():317] send_request: stop_status
+2023-05-08 07:27:31,668 DEBUG   SenderThread:453 [sender.py:send():303] send: telemetry
+2023-05-08 07:27:31,933 INFO    Thread-17 :453 [upload_job.py:push():143] Uploaded file /tmp/tmp8jv760zgwandb/ou4w29la-wandb-metadata.json
+2023-05-08 07:27:32,299 INFO    Thread-13 :453 [dir_watcher.py:_on_file_created():275] file/dir created: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-metadata.json
+2023-05-08 07:27:32,299 INFO    Thread-13 :453 [dir_watcher.py:_on_file_created():275] file/dir created: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:27:32,299 INFO    Thread-13 :453 [dir_watcher.py:_on_file_created():275] file/dir created: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/requirements.txt
+2023-05-08 07:27:34,303 INFO    Thread-13 :453 [dir_watcher.py:_on_file_created():275] file/dir created: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:27:36,304 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:27:38,305 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:27:40,305 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:27:42,306 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:27:44,307 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:27:46,309 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:27:46,672 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: stop_status
+2023-05-08 07:27:46,672 DEBUG   SenderThread:453 [sender.py:send_request():317] send_request: stop_status
+2023-05-08 07:27:48,310 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:27:50,311 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:27:52,312 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:27:54,314 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:27:56,315 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:27:58,316 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:27:59,493 DEBUG   SenderThread:453 [sender.py:send():303] send: stats
+2023-05-08 07:28:00,317 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:28:01,317 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/config.yaml
+2023-05-08 07:28:01,761 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: stop_status
+2023-05-08 07:28:01,762 DEBUG   SenderThread:453 [sender.py:send_request():317] send_request: stop_status
+2023-05-08 07:28:02,318 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:28:04,319 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:28:06,320 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:28:08,321 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:28:10,321 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:28:12,322 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:28:14,323 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:28:16,324 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:28:16,858 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: stop_status
+2023-05-08 07:28:16,858 DEBUG   SenderThread:453 [sender.py:send_request():317] send_request: stop_status
+2023-05-08 07:28:18,325 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:28:20,326 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:28:22,327 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:28:24,328 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:28:26,329 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:28:28,137 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:28:28,330 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:28:29,485 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:28:29,486 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:28:29,486 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:28:29,495 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:28:29,611 DEBUG   SenderThread:453 [sender.py:send():303] send: stats
+2023-05-08 07:28:30,331 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:28:30,331 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:28:30,677 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:28:30,678 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:28:30,679 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:28:30,687 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:28:31,331 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:28:31,912 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:28:31,913 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:28:31,913 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:28:31,943 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: stop_status
+2023-05-08 07:28:31,956 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:28:31,956 DEBUG   SenderThread:453 [sender.py:send_request():317] send_request: stop_status
+2023-05-08 07:28:32,332 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:28:32,332 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:28:33,145 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:28:33,146 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:28:33,146 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:28:33,151 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:28:33,332 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:28:34,289 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:28:34,290 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:28:34,290 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:28:34,306 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:28:34,333 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:28:34,333 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:28:35,454 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:28:35,454 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:28:35,455 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:28:35,460 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:28:36,333 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:28:36,334 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:28:36,671 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:28:36,672 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:28:36,672 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:28:36,679 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:28:37,335 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:28:37,891 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:28:37,891 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:28:37,891 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:28:37,910 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:28:38,335 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:28:38,336 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:28:39,157 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:28:39,158 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:28:39,158 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:28:39,164 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:28:39,336 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:28:40,337 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:28:40,374 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:28:40,374 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:28:40,375 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:28:40,400 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:28:41,337 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:28:41,610 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:28:41,611 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:28:41,611 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:28:41,624 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:28:42,337 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:28:42,338 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:28:42,783 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:28:42,783 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:28:42,784 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:28:42,796 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:28:43,338 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:28:43,919 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:28:43,920 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:28:43,920 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:28:43,960 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:28:44,338 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:28:44,339 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:28:45,053 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:28:45,054 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:28:45,054 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:28:45,224 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:28:45,339 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:28:46,190 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:28:46,190 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:28:46,191 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:28:46,194 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:28:46,339 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:28:46,340 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:28:47,063 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: stop_status
+2023-05-08 07:28:47,064 DEBUG   SenderThread:453 [sender.py:send_request():317] send_request: stop_status
+2023-05-08 07:28:47,349 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:28:47,350 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:28:47,351 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:28:47,370 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:28:48,340 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:28:48,341 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:28:48,554 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:28:48,555 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:28:48,555 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:28:48,558 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:28:49,341 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:28:49,802 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:28:49,802 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:28:49,803 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:28:49,809 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:28:50,341 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:28:50,341 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:28:50,995 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:28:50,996 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:28:50,996 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:28:51,035 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:28:51,342 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:28:52,228 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:28:52,229 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:28:52,229 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:28:52,239 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:28:52,342 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:28:52,343 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:28:53,402 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:28:53,404 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:28:53,404 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:28:53,407 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:28:54,343 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:28:54,343 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:28:54,588 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:28:54,588 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:28:54,589 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:28:54,605 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:28:55,344 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:28:55,751 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:28:55,752 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:28:55,752 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:28:55,756 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:28:56,345 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:28:56,345 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:28:56,943 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:28:56,944 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:28:56,944 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:28:56,951 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:28:57,345 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:28:58,174 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:28:58,174 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:28:58,175 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:28:58,197 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:28:58,346 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:28:58,346 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:28:59,327 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:28:59,328 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:28:59,329 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:28:59,346 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:28:59,347 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:28:59,762 DEBUG   SenderThread:453 [sender.py:send():303] send: stats
+2023-05-08 07:29:00,347 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:29:00,347 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:29:00,546 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:29:00,547 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:29:00,547 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:29:00,562 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:29:01,347 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:29:01,763 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:29:01,764 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:29:01,765 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:29:01,769 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:29:02,138 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: stop_status
+2023-05-08 07:29:02,139 DEBUG   SenderThread:453 [sender.py:send_request():317] send_request: stop_status
+2023-05-08 07:29:02,348 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:29:02,348 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:29:02,998 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:29:02,999 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:29:02,999 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:29:03,006 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:29:03,348 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:29:04,168 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:29:04,169 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:29:04,169 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:29:04,178 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:29:04,348 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:29:04,349 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:29:05,326 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:29:05,327 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:29:05,327 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:29:05,337 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:29:05,349 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:29:06,349 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:29:06,498 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:29:06,499 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:29:06,499 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:29:06,507 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:29:07,350 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:29:07,701 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:29:07,702 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:29:07,702 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:29:07,707 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:29:08,351 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:29:08,351 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:29:08,959 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:29:08,960 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:29:08,960 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:29:08,966 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:29:09,351 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:29:10,216 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:29:10,217 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:29:10,217 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:29:10,236 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:29:10,351 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:29:10,352 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:29:11,461 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:29:11,462 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:29:11,462 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:29:11,477 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:29:12,353 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:29:12,353 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:29:12,756 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:29:12,757 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:29:12,757 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:29:12,762 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:29:13,353 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:29:13,984 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:29:13,985 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:29:13,985 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:29:13,997 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:29:14,354 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:29:14,354 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:29:15,300 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:29:15,301 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:29:15,301 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:29:15,313 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:29:15,354 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:29:16,354 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:29:16,472 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:29:16,472 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:29:16,473 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:29:16,484 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:29:17,250 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: stop_status
+2023-05-08 07:29:17,251 DEBUG   SenderThread:453 [sender.py:send_request():317] send_request: stop_status
+2023-05-08 07:29:17,355 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:29:17,733 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:29:17,734 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:29:17,734 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:29:17,746 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:29:18,356 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:29:18,356 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:29:18,947 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:29:18,951 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:29:18,952 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:29:18,957 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:29:19,356 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:29:20,166 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:29:20,167 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:29:20,168 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:29:20,174 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:29:20,357 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:29:20,357 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:29:21,446 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:29:21,447 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:29:21,447 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:29:21,453 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:29:22,358 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:29:22,358 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:29:22,655 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:29:22,656 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:29:22,656 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:29:22,687 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:29:23,358 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:29:23,837 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:29:23,837 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:29:23,838 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:29:23,846 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:29:24,359 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:29:24,359 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:29:25,001 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:29:25,001 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:29:25,002 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:29:25,024 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:29:25,359 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:29:26,181 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:29:26,182 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:29:26,182 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:29:26,187 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:29:26,360 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:29:26,360 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:29:27,356 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:29:27,357 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:29:27,357 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:29:27,361 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:29:27,361 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:29:28,361 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:29:28,361 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:29:28,578 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:29:28,579 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:29:28,579 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:29:28,583 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:29:29,361 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:29:29,746 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:29:29,746 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:29:29,747 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:29:29,769 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:29:29,909 DEBUG   SenderThread:453 [sender.py:send():303] send: stats
+2023-05-08 07:29:30,362 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:29:30,362 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:29:30,990 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:29:30,991 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:29:30,991 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:29:31,023 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:29:31,362 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:29:32,290 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:29:32,291 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:29:32,292 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:29:32,305 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:29:32,363 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:29:32,363 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:29:32,367 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: stop_status
+2023-05-08 07:29:32,367 DEBUG   SenderThread:453 [sender.py:send_request():317] send_request: stop_status
+2023-05-08 07:29:33,629 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:29:33,630 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:29:33,630 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:29:33,668 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:29:34,364 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:29:34,364 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:29:34,928 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:29:34,929 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:29:34,929 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:29:34,937 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:29:35,364 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:29:36,186 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:29:36,186 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:29:36,187 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:29:36,202 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:29:36,365 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:29:36,365 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:29:37,580 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:29:37,581 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:29:37,581 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:29:37,586 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:29:38,366 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:29:38,366 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:29:38,973 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:29:38,974 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:29:38,975 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:29:39,003 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:29:39,366 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:29:40,337 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:29:40,338 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:29:40,338 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:29:40,368 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:29:40,368 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:29:40,370 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:29:41,369 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:29:41,676 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:29:41,677 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:29:41,678 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:29:41,682 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:29:42,370 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:29:42,370 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:29:43,078 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:29:43,079 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:29:43,079 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:29:43,084 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:29:43,371 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:29:44,371 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:29:44,486 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:29:44,487 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:29:44,487 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:29:44,500 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:29:45,371 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:29:45,882 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:29:45,883 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:29:45,883 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:29:45,891 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:29:46,372 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:29:46,372 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:29:47,215 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:29:47,216 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:29:47,217 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:29:47,229 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:29:47,372 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:29:47,452 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: stop_status
+2023-05-08 07:29:47,452 DEBUG   SenderThread:453 [sender.py:send_request():317] send_request: stop_status
+2023-05-08 07:29:48,373 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:29:48,666 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:29:48,666 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:29:48,667 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:29:48,680 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:29:49,373 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:29:50,253 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:29:50,253 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:29:50,254 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:29:50,268 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:29:50,374 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:29:50,374 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:29:51,583 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:29:51,585 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:29:51,585 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:29:51,598 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:29:52,375 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:29:52,375 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:29:52,965 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:29:52,966 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:29:52,966 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:29:52,973 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:29:53,375 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:29:54,376 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:29:54,385 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:29:54,386 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:29:54,386 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:29:54,397 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:29:55,376 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:29:55,880 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:29:55,882 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:29:55,882 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:29:55,892 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:29:56,377 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:29:56,377 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:29:57,480 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:29:57,481 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:29:57,482 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:29:57,486 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:29:58,384 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:29:58,385 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:29:58,957 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:29:58,957 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:29:58,958 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:29:58,970 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:29:59,385 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:30:00,031 DEBUG   SenderThread:453 [sender.py:send():303] send: stats
+2023-05-08 07:30:00,384 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:30:00,384 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:30:00,384 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:30:00,389 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:30:00,435 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:30:00,442 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:30:01,390 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:30:01,859 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:30:01,860 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:30:01,860 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:30:01,872 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:30:02,390 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:30:02,391 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:30:02,565 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: stop_status
+2023-05-08 07:30:02,566 DEBUG   SenderThread:453 [sender.py:send_request():317] send_request: stop_status
+2023-05-08 07:30:03,278 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:30:03,279 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:30:03,279 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:30:03,332 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:30:03,391 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:30:04,391 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:30:04,735 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:30:04,736 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:30:04,737 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:30:04,754 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:30:05,392 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:30:06,257 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:30:06,258 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:30:06,258 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:30:06,268 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:30:06,392 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:30:06,393 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:30:07,751 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:30:07,752 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:30:07,752 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:30:07,780 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:30:08,393 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:30:08,394 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:30:09,326 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:30:09,326 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:30:09,327 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:30:09,336 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:30:09,394 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:30:10,394 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:30:10,935 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:30:10,936 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:30:10,936 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:30:10,945 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:30:11,395 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:30:12,396 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:30:12,487 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:30:12,488 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:30:12,488 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:30:12,492 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:30:13,396 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:30:13,838 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:30:13,838 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:30:13,839 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:30:13,857 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:30:14,396 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:30:14,397 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:30:15,198 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:30:15,199 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:30:15,199 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:30:15,239 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:30:15,397 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:30:16,386 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:30:16,387 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:30:16,387 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:30:16,395 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:30:16,397 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:30:16,397 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:30:17,584 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:30:17,585 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:30:17,585 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:30:17,589 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:30:17,675 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: stop_status
+2023-05-08 07:30:17,675 DEBUG   SenderThread:453 [sender.py:send_request():317] send_request: stop_status
+2023-05-08 07:30:18,398 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:30:18,398 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:30:18,770 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:30:18,771 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:30:18,771 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:30:18,785 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:30:19,399 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:30:20,002 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:30:20,003 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:30:20,003 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:30:20,008 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:30:20,400 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:30:20,400 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:30:21,218 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:30:21,219 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:30:21,219 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:30:21,226 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:30:21,400 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:30:22,401 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:30:22,427 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:30:22,427 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:30:22,427 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:30:22,434 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:30:23,401 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:30:23,599 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:30:23,600 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:30:23,600 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:30:23,607 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:30:24,402 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:30:24,402 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:30:24,840 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:30:24,840 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:30:24,841 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:30:24,845 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:30:25,402 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:30:26,136 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:30:26,137 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:30:26,137 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:30:26,143 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:30:26,403 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:30:26,403 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:30:27,461 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:30:27,462 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:30:27,462 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:30:27,467 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:30:28,404 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:30:28,404 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:30:28,647 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:30:28,648 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:30:28,649 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:30:28,654 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:30:29,404 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:30:29,821 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:30:29,822 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:30:29,822 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:30:29,826 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:30:30,152 DEBUG   SenderThread:453 [sender.py:send():303] send: stats
+2023-05-08 07:30:30,405 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:30:30,405 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:30:31,012 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:30:31,013 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:30:31,013 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:30:31,017 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:30:31,405 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:30:32,359 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:30:32,359 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:30:32,360 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:30:32,364 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:30:32,406 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:30:32,406 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:30:32,757 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: stop_status
+2023-05-08 07:30:32,757 DEBUG   SenderThread:453 [sender.py:send_request():317] send_request: stop_status
+2023-05-08 07:30:33,861 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:30:33,862 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:30:33,863 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:30:33,867 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:30:34,407 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:30:34,407 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:30:35,145 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:30:35,146 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:30:35,146 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:30:35,151 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:30:35,407 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:30:36,363 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:30:36,363 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:30:36,364 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:30:36,378 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:30:36,408 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:30:36,408 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:30:37,582 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:30:37,583 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:30:37,583 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:30:37,589 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:30:38,408 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:30:38,409 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:30:38,797 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:30:38,798 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:30:38,798 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:30:38,806 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:30:39,410 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:30:39,985 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:30:39,986 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:30:39,986 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:30:39,991 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:30:40,410 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:30:40,410 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:30:41,207 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:30:41,207 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:30:41,208 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:30:41,212 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:30:41,410 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:30:42,407 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:30:42,408 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:30:42,408 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:30:42,413 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:30:42,413 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:30:42,413 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:30:43,413 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:30:43,619 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:30:43,621 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:30:43,621 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:30:43,627 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:30:44,414 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:30:44,414 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:30:44,824 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:30:44,824 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:30:44,825 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:30:44,829 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:30:45,414 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:30:45,999 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:30:46,000 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:30:46,001 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:30:46,004 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:30:46,414 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:30:46,415 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:30:47,200 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:30:47,201 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:30:47,201 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:30:47,206 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:30:47,415 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:30:47,862 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: stop_status
+2023-05-08 07:30:47,863 DEBUG   SenderThread:453 [sender.py:send_request():317] send_request: stop_status
+2023-05-08 07:30:48,415 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:30:48,446 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:30:48,447 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:30:48,447 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:30:48,451 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:30:49,416 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:30:49,660 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:30:49,660 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:30:49,661 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:30:49,667 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:30:50,416 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:30:50,416 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:30:50,838 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:30:50,839 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:30:50,839 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:30:50,844 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:30:51,417 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:30:52,109 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:30:52,110 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:30:52,110 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:30:52,115 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:30:52,417 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:30:52,418 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:30:53,328 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:30:53,328 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:30:53,329 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:30:53,332 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:30:53,418 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:30:54,418 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:30:54,643 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:30:54,643 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:30:54,644 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:30:54,648 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:30:55,419 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:30:55,855 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:30:55,855 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:30:55,856 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:30:55,871 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:30:56,419 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:30:56,419 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:30:57,113 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:30:57,113 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:30:57,114 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:30:57,119 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:30:57,420 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:30:58,337 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:30:58,338 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:30:58,338 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:30:58,346 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:30:58,420 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:30:58,420 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:30:59,600 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:30:59,601 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:30:59,601 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:30:59,615 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:31:00,291 DEBUG   SenderThread:453 [sender.py:send():303] send: stats
+2023-05-08 07:31:00,421 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:31:00,421 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:31:01,008 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:31:01,008 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:31:01,009 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:31:01,013 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:31:01,422 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:31:02,214 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:31:02,215 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:31:02,215 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:31:02,221 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:31:02,422 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:31:02,422 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:31:02,961 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: stop_status
+2023-05-08 07:31:02,962 DEBUG   SenderThread:453 [sender.py:send_request():317] send_request: stop_status
+2023-05-08 07:31:03,407 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:31:03,408 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:31:03,408 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:31:03,417 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:31:03,422 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:31:04,423 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:31:04,626 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:31:04,627 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:31:04,627 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:31:04,662 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:31:05,423 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:31:05,824 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:31:05,825 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:31:05,825 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:31:05,829 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:31:06,424 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:31:06,424 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:31:07,039 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:31:07,039 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:31:07,040 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:31:07,065 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:31:07,424 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:31:08,282 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:31:08,283 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:31:08,283 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:31:08,288 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:31:08,425 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:31:08,425 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:31:09,497 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:31:09,498 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:31:09,498 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:31:09,512 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:31:10,426 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:31:10,426 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:31:10,679 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:31:10,680 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:31:10,680 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:31:10,689 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:31:11,426 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:31:11,918 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:31:11,919 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:31:11,919 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:31:11,923 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:31:12,427 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:31:12,427 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:31:13,140 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:31:13,141 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:31:13,141 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:31:13,146 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:31:13,427 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:31:14,425 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:31:14,425 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:31:14,425 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:31:14,432 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:31:14,433 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:31:14,433 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:31:15,433 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:31:15,706 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:31:15,706 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:31:15,707 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:31:15,713 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:31:16,433 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:31:16,434 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:31:16,975 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:31:16,975 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:31:16,976 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:31:16,980 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:31:17,434 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:31:18,105 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: stop_status
+2023-05-08 07:31:18,105 DEBUG   SenderThread:453 [sender.py:send_request():317] send_request: stop_status
+2023-05-08 07:31:18,415 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:31:18,415 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:31:18,416 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:31:18,420 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:31:18,434 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:31:18,434 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:31:19,660 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:31:19,661 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:31:19,661 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:31:19,673 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:31:20,435 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:31:20,435 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:31:20,936 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:31:20,937 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:31:20,937 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:31:20,946 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:31:21,436 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:31:22,227 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:31:22,227 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:31:22,227 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:31:22,232 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:31:22,436 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:31:22,436 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:31:23,500 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:31:23,501 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:31:23,501 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:31:23,510 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:31:24,437 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:31:24,437 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:31:24,809 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:31:24,810 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:31:24,811 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:31:24,818 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:31:25,437 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:31:26,071 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:31:26,072 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:31:26,072 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:31:26,084 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:31:26,438 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:31:26,438 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:31:27,396 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:31:27,397 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:31:27,397 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:31:27,401 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:31:27,438 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:31:28,439 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:31:28,646 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:31:28,647 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:31:28,647 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:31:28,651 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:31:29,439 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:31:29,855 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:31:29,856 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:31:29,856 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:31:29,861 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:31:30,440 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:31:30,440 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:31:30,442 DEBUG   SenderThread:453 [sender.py:send():303] send: stats
+2023-05-08 07:31:31,081 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:31:31,081 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:31:31,082 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:31:31,087 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:31:31,440 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:31:32,345 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:31:32,345 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:31:32,346 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:31:32,381 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:31:32,440 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:31:32,441 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:31:33,185 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: stop_status
+2023-05-08 07:31:33,186 DEBUG   SenderThread:453 [sender.py:send_request():317] send_request: stop_status
+2023-05-08 07:31:33,644 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:31:33,645 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:31:33,645 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:31:33,652 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:31:34,442 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:31:34,442 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:31:34,931 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:31:34,932 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:31:34,932 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:31:34,939 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:31:35,442 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:31:36,244 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:31:36,244 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:31:36,245 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:31:36,256 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:31:36,443 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:31:36,443 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:31:37,584 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:31:37,585 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:31:37,585 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:31:37,594 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:31:38,444 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:31:38,444 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:31:38,860 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:31:38,861 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:31:38,861 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:31:38,865 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:31:39,444 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:31:40,101 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:31:40,102 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:31:40,102 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:31:40,119 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:31:40,445 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:31:40,445 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:31:41,357 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:31:41,358 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:31:41,358 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:31:41,362 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:31:41,445 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:31:42,445 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:31:42,606 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:31:42,607 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:31:42,607 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:31:42,612 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:31:43,446 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:31:43,948 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:31:43,949 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:31:43,949 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:31:43,955 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:31:44,446 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:31:44,446 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:31:45,149 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:31:45,150 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:31:45,150 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:31:45,154 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:31:45,447 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:31:46,347 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:31:46,348 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:31:46,348 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:31:46,357 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:31:46,447 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:31:46,447 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:31:47,636 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:31:47,637 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:31:47,637 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:31:47,649 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:31:48,301 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: stop_status
+2023-05-08 07:31:48,302 DEBUG   SenderThread:453 [sender.py:send_request():317] send_request: stop_status
+2023-05-08 07:31:48,448 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:31:48,448 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:31:48,873 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:31:48,874 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:31:48,874 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:31:48,886 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:31:49,448 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:31:50,066 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:31:50,067 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:31:50,067 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:31:50,136 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:31:50,449 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:31:50,449 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:31:51,337 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:31:51,338 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:31:51,338 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:31:51,347 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:31:51,450 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:31:52,450 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:31:52,564 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:31:52,565 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:31:52,565 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:31:52,571 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:31:53,451 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:31:53,857 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:31:53,858 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:31:53,858 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:31:53,866 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:31:54,451 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:31:54,451 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:31:55,094 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:31:55,094 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:31:55,095 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:31:55,186 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:31:55,452 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:31:56,341 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:31:56,342 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:31:56,342 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:31:56,346 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:31:56,452 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:31:56,452 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:31:57,598 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:31:57,599 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:31:57,599 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:31:57,604 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:31:58,453 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:31:58,453 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:31:58,859 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:31:58,860 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:31:58,860 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:31:58,895 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:31:59,453 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:32:00,123 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:32:00,124 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:32:00,124 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:32:00,128 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:32:00,454 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:32:00,454 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:32:00,596 DEBUG   SenderThread:453 [sender.py:send():303] send: stats
+2023-05-08 07:32:01,414 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:32:01,414 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:32:01,414 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:32:01,419 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:32:01,454 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:32:02,455 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:32:02,685 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:32:02,686 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:32:02,686 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:32:02,691 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:32:03,383 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: stop_status
+2023-05-08 07:32:03,383 DEBUG   SenderThread:453 [sender.py:send_request():317] send_request: stop_status
+2023-05-08 07:32:03,455 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:32:03,961 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:32:03,962 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:32:03,963 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:32:03,979 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:32:04,456 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:32:04,456 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:32:05,184 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:32:05,185 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:32:05,185 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:32:05,191 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:32:05,456 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:32:06,457 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:32:06,554 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:32:06,555 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:32:06,555 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:32:06,559 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:32:07,457 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:32:07,890 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:32:07,891 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:32:07,891 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:32:07,917 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:32:08,458 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:32:08,458 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:32:09,209 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:32:09,210 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:32:09,210 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:32:09,423 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:32:09,458 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:32:10,458 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:32:10,465 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:32:10,465 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:32:10,466 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:32:10,471 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:32:11,459 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:32:11,682 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:32:11,683 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:32:11,684 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:32:11,693 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:32:12,459 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:32:12,459 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:32:12,948 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:32:12,949 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:32:12,949 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:32:12,955 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:32:13,460 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:32:14,264 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:32:14,265 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:32:14,266 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:32:14,270 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:32:14,460 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:32:14,460 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:32:15,498 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:32:15,499 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:32:15,499 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:32:15,509 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:32:16,461 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:32:16,461 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:32:16,718 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:32:16,719 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:32:16,719 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:32:16,850 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:32:17,462 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:32:17,981 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:32:17,981 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:32:17,982 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:32:17,989 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:32:18,462 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:32:18,462 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:32:18,513 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: stop_status
+2023-05-08 07:32:18,514 DEBUG   SenderThread:453 [sender.py:send_request():317] send_request: stop_status
+2023-05-08 07:32:19,209 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:32:19,210 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:32:19,210 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:32:19,235 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:32:19,463 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:32:20,438 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:32:20,438 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:32:20,439 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:32:20,443 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:32:20,463 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:32:20,463 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:32:21,669 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:32:21,670 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:32:21,670 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:32:21,679 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:32:22,464 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:32:22,464 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:32:22,885 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:32:22,886 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:32:22,886 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:32:22,891 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:32:23,465 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:32:24,089 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:32:24,090 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:32:24,090 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:32:24,094 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:32:24,465 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:32:24,465 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:32:25,332 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:32:25,333 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:32:25,333 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:32:25,337 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:32:25,466 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:32:26,466 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:32:26,565 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:32:26,567 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:32:26,567 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:32:26,573 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:32:27,467 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:32:27,844 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:32:27,845 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:32:27,845 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:32:27,850 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:32:28,467 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:32:28,468 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:32:29,264 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:32:29,265 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:32:29,265 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:32:29,469 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:32:29,472 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:32:30,468 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:32:30,469 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:32:30,470 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:32:30,473 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:32:30,475 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:32:30,476 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:32:30,734 DEBUG   SenderThread:453 [sender.py:send():303] send: stats
+2023-05-08 07:32:31,473 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:32:31,760 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:32:31,761 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:32:31,761 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:32:31,765 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:32:32,474 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:32:32,474 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:32:32,976 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:32:32,977 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:32:32,977 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:32:32,982 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:32:33,474 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:32:33,619 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: stop_status
+2023-05-08 07:32:33,619 DEBUG   SenderThread:453 [sender.py:send_request():317] send_request: stop_status
+2023-05-08 07:32:34,228 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:32:34,228 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:32:34,229 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:32:34,234 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:32:34,475 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:32:34,475 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:32:35,439 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:32:35,440 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:32:35,440 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:32:35,443 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:32:35,475 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:32:36,476 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:32:36,727 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:32:36,728 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:32:36,728 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:32:36,732 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:32:37,476 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:32:38,026 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:32:38,026 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:32:38,027 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:32:38,030 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:32:38,477 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:32:38,477 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:32:39,345 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:32:39,345 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:32:39,346 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:32:39,349 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:32:39,477 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:32:40,478 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:32:40,596 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:32:40,597 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:32:40,597 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:32:40,600 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:32:41,478 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:32:41,843 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:32:41,844 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:32:41,844 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:32:42,058 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:32:42,479 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:32:42,479 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:32:43,071 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:32:43,071 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:32:43,072 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:32:43,076 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:32:43,479 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:32:44,285 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:32:44,286 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:32:44,286 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:32:44,294 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:32:44,480 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:32:44,480 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:32:45,549 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:32:45,550 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:32:45,550 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:32:45,560 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:32:46,481 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:32:46,481 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:32:46,760 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:32:46,760 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:32:46,761 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:32:46,979 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:32:47,481 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:32:48,006 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:32:48,006 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:32:48,007 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:32:48,011 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:32:48,482 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:32:48,482 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:32:48,712 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: stop_status
+2023-05-08 07:32:48,713 DEBUG   SenderThread:453 [sender.py:send_request():317] send_request: stop_status
+2023-05-08 07:32:49,278 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:32:49,279 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:32:49,279 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:32:49,286 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:32:49,482 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:32:50,482 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:32:50,502 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:32:50,503 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:32:50,503 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:32:50,509 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:32:51,483 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:32:51,778 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:32:51,778 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:32:51,779 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:32:51,784 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:32:52,483 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:32:52,484 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:32:53,121 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:32:53,122 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:32:53,122 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:32:53,127 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:32:53,484 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:32:54,424 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:32:54,425 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:32:54,425 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:32:54,429 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:32:54,484 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:32:54,484 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:32:55,794 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:32:55,795 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:32:55,795 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:32:55,809 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:32:56,485 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:32:56,486 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:32:57,097 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:32:57,097 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:32:57,097 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:32:57,102 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:32:57,486 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:32:58,347 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:32:58,348 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:32:58,348 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:32:58,362 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:32:58,486 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:32:58,487 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:32:59,589 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:32:59,590 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:32:59,590 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:32:59,614 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:33:00,488 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:33:00,488 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:33:00,844 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:33:00,845 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:33:00,845 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:33:00,852 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:33:00,884 DEBUG   SenderThread:453 [sender.py:send():303] send: stats
+2023-05-08 07:33:01,488 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:33:02,132 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:33:02,132 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:33:02,133 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:33:02,137 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:33:02,489 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:33:02,489 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:33:03,450 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:33:03,451 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:33:03,451 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:33:03,466 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:33:03,489 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:33:03,799 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: stop_status
+2023-05-08 07:33:03,799 DEBUG   SenderThread:453 [sender.py:send_request():317] send_request: stop_status
+2023-05-08 07:33:04,490 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:33:04,703 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:33:04,705 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:33:04,706 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:33:04,709 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:33:05,490 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:33:05,906 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:33:05,906 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:33:05,907 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:33:05,912 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:33:06,491 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:33:06,491 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:33:07,201 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:33:07,203 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:33:07,203 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:33:07,208 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:33:07,491 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:33:08,492 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:33:08,564 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:33:08,565 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:33:08,566 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:33:08,570 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:33:09,492 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:33:09,963 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:33:09,963 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:33:09,964 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:33:09,972 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:33:10,493 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:33:10,493 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:33:11,334 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:33:11,335 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:33:11,335 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:33:11,494 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:33:11,497 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:33:12,495 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:33:12,495 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:33:12,649 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-08 07:33:12,650 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:33:12,650 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:33:12,654 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:33:13,495 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:33:13,939 DEBUG   SenderThread:453 [sender.py:send():303] send: exit
+2023-05-08 07:33:13,940 INFO    SenderThread:453 [sender.py:send_exit():442] handling exit code: 1
+2023-05-08 07:33:13,940 INFO    SenderThread:453 [sender.py:send_exit():444] handling runtime: 342
+2023-05-08 07:33:13,944 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:33:13,944 INFO    SenderThread:453 [sender.py:send_exit():450] send defer
+2023-05-08 07:33:13,944 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: defer
+2023-05-08 07:33:13,944 INFO    HandlerThread:453 [handler.py:handle_request_defer():161] handle defer: 0
+2023-05-08 07:33:13,944 DEBUG   SenderThread:453 [sender.py:send_request():317] send_request: defer
+2023-05-08 07:33:13,944 INFO    SenderThread:453 [sender.py:send_request_defer():459] handle sender defer: 0
+2023-05-08 07:33:13,944 INFO    SenderThread:453 [sender.py:transition_state():463] send defer: 1
+2023-05-08 07:33:13,945 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: defer
+2023-05-08 07:33:13,945 INFO    HandlerThread:453 [handler.py:handle_request_defer():161] handle defer: 1
+2023-05-08 07:33:13,961 DEBUG   SenderThread:453 [sender.py:send_request():317] send_request: defer
+2023-05-08 07:33:13,961 INFO    SenderThread:453 [sender.py:send_request_defer():459] handle sender defer: 1
+2023-05-08 07:33:13,961 INFO    SenderThread:453 [sender.py:transition_state():463] send defer: 2
+2023-05-08 07:33:13,961 DEBUG   SenderThread:453 [sender.py:send():303] send: stats
+2023-05-08 07:33:13,961 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: defer
+2023-05-08 07:33:13,961 INFO    HandlerThread:453 [handler.py:handle_request_defer():161] handle defer: 2
+2023-05-08 07:33:13,962 DEBUG   SenderThread:453 [sender.py:send():303] send: history
+2023-05-08 07:33:13,962 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:33:13,965 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:33:13,966 DEBUG   SenderThread:453 [sender.py:send_request():317] send_request: defer
+2023-05-08 07:33:13,966 INFO    SenderThread:453 [sender.py:send_request_defer():459] handle sender defer: 2
+2023-05-08 07:33:13,966 INFO    SenderThread:453 [sender.py:transition_state():463] send defer: 3
+2023-05-08 07:33:13,966 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: defer
+2023-05-08 07:33:13,966 INFO    HandlerThread:453 [handler.py:handle_request_defer():161] handle defer: 3
+2023-05-08 07:33:13,966 DEBUG   SenderThread:453 [sender.py:send_request():317] send_request: defer
+2023-05-08 07:33:13,966 INFO    SenderThread:453 [sender.py:send_request_defer():459] handle sender defer: 3
+2023-05-08 07:33:13,966 INFO    SenderThread:453 [sender.py:transition_state():463] send defer: 4
+2023-05-08 07:33:13,966 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: defer
+2023-05-08 07:33:13,967 INFO    HandlerThread:453 [handler.py:handle_request_defer():161] handle defer: 4
+2023-05-08 07:33:13,967 DEBUG   SenderThread:453 [sender.py:send():303] send: summary
+2023-05-08 07:33:13,998 INFO    SenderThread:453 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-05-08 07:33:13,998 DEBUG   SenderThread:453 [sender.py:send_request():317] send_request: defer
+2023-05-08 07:33:13,998 INFO    SenderThread:453 [sender.py:send_request_defer():459] handle sender defer: 4
+2023-05-08 07:33:13,998 INFO    SenderThread:453 [sender.py:transition_state():463] send defer: 5
+2023-05-08 07:33:13,999 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: defer
+2023-05-08 07:33:13,999 INFO    HandlerThread:453 [handler.py:handle_request_defer():161] handle defer: 5
+2023-05-08 07:33:13,999 DEBUG   SenderThread:453 [sender.py:send_request():317] send_request: defer
+2023-05-08 07:33:13,999 INFO    SenderThread:453 [sender.py:send_request_defer():459] handle sender defer: 5
+2023-05-08 07:33:13,999 INFO    SenderThread:453 [sender.py:transition_state():463] send defer: 6
+2023-05-08 07:33:13,999 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: defer
+2023-05-08 07:33:13,999 INFO    HandlerThread:453 [handler.py:handle_request_defer():161] handle defer: 6
+2023-05-08 07:33:13,999 DEBUG   SenderThread:453 [sender.py:send_request():317] send_request: defer
+2023-05-08 07:33:13,999 INFO    SenderThread:453 [sender.py:send_request_defer():459] handle sender defer: 6
+2023-05-08 07:33:14,496 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:33:14,496 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:33:14,940 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: poll_exit
+2023-05-08 07:33:15,751 INFO    SenderThread:453 [sender.py:transition_state():463] send defer: 7
+2023-05-08 07:33:15,751 DEBUG   SenderThread:453 [sender.py:send_request():317] send_request: poll_exit
+2023-05-08 07:33:15,752 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: defer
+2023-05-08 07:33:15,752 INFO    HandlerThread:453 [handler.py:handle_request_defer():161] handle defer: 7
+2023-05-08 07:33:15,752 DEBUG   SenderThread:453 [sender.py:send_request():317] send_request: defer
+2023-05-08 07:33:15,752 INFO    SenderThread:453 [sender.py:send_request_defer():459] handle sender defer: 7
+2023-05-08 07:33:15,753 INFO    SenderThread:453 [dir_watcher.py:finish():362] shutting down directory watcher
+2023-05-08 07:33:15,941 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: poll_exit
+2023-05-08 07:33:16,497 INFO    Thread-13 :453 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:33:16,497 INFO    SenderThread:453 [dir_watcher.py:finish():392] scan: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files
+2023-05-08 07:33:16,497 INFO    SenderThread:453 [dir_watcher.py:finish():406] scan save: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/requirements.txt requirements.txt
+2023-05-08 07:33:16,498 INFO    SenderThread:453 [dir_watcher.py:finish():406] scan save: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-metadata.json wandb-metadata.json
+2023-05-08 07:33:16,498 INFO    SenderThread:453 [dir_watcher.py:finish():406] scan save: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json wandb-summary.json
+2023-05-08 07:33:16,498 INFO    SenderThread:453 [dir_watcher.py:finish():406] scan save: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log output.log
+2023-05-08 07:33:16,502 INFO    SenderThread:453 [dir_watcher.py:finish():406] scan save: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/config.yaml config.yaml
+2023-05-08 07:33:16,502 INFO    SenderThread:453 [sender.py:transition_state():463] send defer: 8
+2023-05-08 07:33:16,502 DEBUG   SenderThread:453 [sender.py:send_request():317] send_request: poll_exit
+2023-05-08 07:33:16,512 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: defer
+2023-05-08 07:33:16,512 INFO    HandlerThread:453 [handler.py:handle_request_defer():161] handle defer: 8
+2023-05-08 07:33:16,512 DEBUG   SenderThread:453 [sender.py:send_request():317] send_request: defer
+2023-05-08 07:33:16,512 INFO    SenderThread:453 [sender.py:send_request_defer():459] handle sender defer: 8
+2023-05-08 07:33:16,512 INFO    SenderThread:453 [file_pusher.py:finish():168] shutting down file pusher
+2023-05-08 07:33:16,872 INFO    Thread-21 :453 [upload_job.py:push():143] Uploaded file /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/config.yaml
+2023-05-08 07:33:16,893 INFO    Thread-19 :453 [upload_job.py:push():143] Uploaded file /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/wandb-summary.json
+2023-05-08 07:33:16,903 INFO    Thread-18 :453 [upload_job.py:push():143] Uploaded file /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/requirements.txt
+2023-05-08 07:33:16,942 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: poll_exit
+2023-05-08 07:33:16,942 DEBUG   SenderThread:453 [sender.py:send_request():317] send_request: poll_exit
+2023-05-08 07:33:17,944 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: poll_exit
+2023-05-08 07:33:17,944 DEBUG   SenderThread:453 [sender.py:send_request():317] send_request: poll_exit
+2023-05-08 07:33:18,944 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: poll_exit
+2023-05-08 07:33:18,944 DEBUG   SenderThread:453 [sender.py:send_request():317] send_request: poll_exit
+2023-05-08 07:33:19,945 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: poll_exit
+2023-05-08 07:33:19,945 DEBUG   SenderThread:453 [sender.py:send_request():317] send_request: poll_exit
+2023-05-08 07:33:20,945 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: poll_exit
+2023-05-08 07:33:20,946 DEBUG   SenderThread:453 [sender.py:send_request():317] send_request: poll_exit
+2023-05-08 07:33:21,946 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: poll_exit
+2023-05-08 07:33:21,947 DEBUG   SenderThread:453 [sender.py:send_request():317] send_request: poll_exit
+2023-05-08 07:33:22,947 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: poll_exit
+2023-05-08 07:33:22,948 DEBUG   SenderThread:453 [sender.py:send_request():317] send_request: poll_exit
+2023-05-08 07:33:23,948 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: poll_exit
+2023-05-08 07:33:23,948 DEBUG   SenderThread:453 [sender.py:send_request():317] send_request: poll_exit
+2023-05-08 07:33:24,949 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: poll_exit
+2023-05-08 07:33:24,949 DEBUG   SenderThread:453 [sender.py:send_request():317] send_request: poll_exit
+2023-05-08 07:33:25,950 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: poll_exit
+2023-05-08 07:33:25,950 DEBUG   SenderThread:453 [sender.py:send_request():317] send_request: poll_exit
+2023-05-08 07:33:26,836 INFO    Thread-20 :453 [upload_job.py:push():143] Uploaded file /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/files/output.log
+2023-05-08 07:33:26,950 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: poll_exit
+2023-05-08 07:33:26,951 DEBUG   SenderThread:453 [sender.py:send_request():317] send_request: poll_exit
+2023-05-08 07:33:27,036 INFO    Thread-12 :453 [sender.py:transition_state():463] send defer: 9
+2023-05-08 07:33:27,037 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: defer
+2023-05-08 07:33:27,037 INFO    HandlerThread:453 [handler.py:handle_request_defer():161] handle defer: 9
+2023-05-08 07:33:27,037 DEBUG   SenderThread:453 [sender.py:send_request():317] send_request: defer
+2023-05-08 07:33:27,037 INFO    SenderThread:453 [sender.py:send_request_defer():459] handle sender defer: 9
+2023-05-08 07:33:27,037 INFO    SenderThread:453 [file_pusher.py:join():173] waiting for file pusher
+2023-05-08 07:33:27,037 INFO    SenderThread:453 [sender.py:transition_state():463] send defer: 10
+2023-05-08 07:33:27,037 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: defer
+2023-05-08 07:33:27,037 INFO    HandlerThread:453 [handler.py:handle_request_defer():161] handle defer: 10
+2023-05-08 07:33:27,038 DEBUG   SenderThread:453 [sender.py:send_request():317] send_request: defer
+2023-05-08 07:33:27,038 INFO    SenderThread:453 [sender.py:send_request_defer():459] handle sender defer: 10
+2023-05-08 07:33:27,258 INFO    SenderThread:453 [sender.py:transition_state():463] send defer: 11
+2023-05-08 07:33:27,259 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: defer
+2023-05-08 07:33:27,259 INFO    HandlerThread:453 [handler.py:handle_request_defer():161] handle defer: 11
+2023-05-08 07:33:27,259 DEBUG   SenderThread:453 [sender.py:send_request():317] send_request: defer
+2023-05-08 07:33:27,259 INFO    SenderThread:453 [sender.py:send_request_defer():459] handle sender defer: 11
+2023-05-08 07:33:27,259 INFO    SenderThread:453 [sender.py:transition_state():463] send defer: 12
+2023-05-08 07:33:27,260 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: defer
+2023-05-08 07:33:27,260 INFO    HandlerThread:453 [handler.py:handle_request_defer():161] handle defer: 12
+2023-05-08 07:33:27,260 DEBUG   SenderThread:453 [sender.py:send():303] send: final
+2023-05-08 07:33:27,260 DEBUG   SenderThread:453 [sender.py:send():303] send: footer
+2023-05-08 07:33:27,260 DEBUG   SenderThread:453 [sender.py:send_request():317] send_request: defer
+2023-05-08 07:33:27,260 INFO    SenderThread:453 [sender.py:send_request_defer():459] handle sender defer: 12
+2023-05-08 07:33:27,262 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: poll_exit
+2023-05-08 07:33:27,262 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: poll_exit
+2023-05-08 07:33:27,262 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: server_info
+2023-05-08 07:33:27,262 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: get_summary
+2023-05-08 07:33:27,262 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: sampled_history
+2023-05-08 07:33:27,264 DEBUG   SenderThread:453 [sender.py:send_request():317] send_request: poll_exit
+2023-05-08 07:33:27,264 DEBUG   SenderThread:453 [sender.py:send_request():317] send_request: poll_exit
+2023-05-08 07:33:27,264 DEBUG   SenderThread:453 [sender.py:send_request():317] send_request: server_info
+2023-05-08 07:33:32,268 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: keepalive
+2023-05-08 07:33:32,411 INFO    MainThread:453 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2023-05-08 07:33:32,412 INFO    MainThread:453 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2023-05-08 07:33:32,412 INFO    MainThread:453 [wandb_run.py:_footer_sync_info():3333] logging synced files
+2023-05-08 07:33:32,413 DEBUG   HandlerThread:453 [handler.py:handle_request():138] handle_request: shutdown
+2023-05-08 07:33:32,413 INFO    HandlerThread:453 [handler.py:finish():814] shutting down handler
+2023-05-08 07:33:33,262 INFO    WriterThread:453 [datastore.py:close():279] close: /notebooks/dqn-test/wandb/run-20230508_072730-vcve311q/run-vcve311q.wandb
+2023-05-08 07:33:33,411 INFO    SenderThread:453 [sender.py:finish():1331] shutting down sender
+2023-05-08 07:33:33,411 INFO    SenderThread:453 [file_pusher.py:finish():168] shutting down file pusher
+2023-05-08 07:33:33,411 INFO    SenderThread:453 [file_pusher.py:join():173] waiting for file pusher
+2023-05-08 07:33:33,416 INFO    MainThread:453 [internal.py:handle_exit():78] Internal process exited

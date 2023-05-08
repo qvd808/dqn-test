@@ -1,0 +1,24 @@
+{
+    "os": "Linux-5.4.0-122-generic-x86_64-with-glibc2.31",
+    "python": "3.9.16",
+    "heartbeatAt": "2023-05-08T08:02:40.581761",
+    "startedAt": "2023-05-08T08:02:40.195588",
+    "docker": null,
+    "gpu": "Quadro P5000",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/notebooks/dqn-test/breakout.py",
+    "codePath": "breakout.py",
+    "git": {
+        "remote": "https://github.com/qvd808/dqn-test.git",
+        "commit": "9a3d5ff8c0a3bb9bca2ddf9a00d3bb88c33ca124"
+    },
+    "email": null,
+    "root": "/notebooks/dqn-test",
+    "host": "n9ld4xs7h4",
+    "username": "root",
+    "executable": "/usr/local/bin/python"
+}
