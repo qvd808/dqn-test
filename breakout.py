@@ -87,7 +87,7 @@ tgt = ConvModel(env.observation_space.shape, env.action_space.n).to(device)
 
 update_tgt_model(m, tgt)
 
-rb = RelayBuffer()
+rb = RelayBuffer(buffer_size=memory_size)
 steps_since_train = 0
 epochs_since_tgt = 0
 
@@ -119,7 +119,7 @@ try:
 
 
 
-        if done:
+        if done or (step_num % 500 == 0 and step_num > 0):
             episode_rewards.append(rolling_reward)
             rolling_reward = 0
             obs = env.reset()

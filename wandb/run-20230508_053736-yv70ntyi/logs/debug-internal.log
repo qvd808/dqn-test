@@ -1,0 +1,56 @@
+2023-05-08 05:37:36,074 INFO    StreamThr :26480 [internal.py:wandb_internal():86] W&B internal server running at pid: 26480, started at: 2023-05-08 05:37:36.074699
+2023-05-08 05:37:36,076 DEBUG   HandlerThread:26480 [handler.py:handle_request():144] handle_request: status
+2023-05-08 05:37:36,077 INFO    WriterThread:26480 [datastore.py:open_for_write():85] open: D:\Programming\project\MsPacman\wandb\run-20230508_053736-yv70ntyi\run-yv70ntyi.wandb
+2023-05-08 05:37:36,078 DEBUG   SenderThread:26480 [sender.py:send():375] send: header
+2023-05-08 05:37:36,110 DEBUG   SenderThread:26480 [sender.py:send():375] send: run
+2023-05-08 05:37:36,749 INFO    SenderThread:26480 [dir_watcher.py:__init__():219] watching files in: D:\Programming\project\MsPacman\wandb\run-20230508_053736-yv70ntyi\files
+2023-05-08 05:37:36,753 DEBUG   HandlerThread:26480 [handler.py:handle_request():144] handle_request: check_version
+2023-05-08 05:37:36,758 INFO    SenderThread:26480 [sender.py:_start_run_threads():1124] run started: yv70ntyi with start time 1683549456.074699
+2023-05-08 05:37:36,758 DEBUG   SenderThread:26480 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 05:37:36,759 INFO    SenderThread:26480 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 05:37:36,759 DEBUG   SenderThread:26480 [sender.py:send_request():402] send_request: check_version
+2023-05-08 05:37:37,361 DEBUG   HandlerThread:26480 [handler.py:handle_request():144] handle_request: run_start
+2023-05-08 05:37:37,378 DEBUG   HandlerThread:26480 [system_info.py:__init__():31] System info init
+2023-05-08 05:37:37,378 DEBUG   HandlerThread:26480 [system_info.py:__init__():46] System info init done
+2023-05-08 05:37:37,378 INFO    HandlerThread:26480 [system_monitor.py:start():181] Starting system monitor
+2023-05-08 05:37:37,378 INFO    SystemMonitor:26480 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-05-08 05:37:37,378 INFO    HandlerThread:26480 [system_monitor.py:probe():201] Collecting system info
+2023-05-08 05:37:37,382 INFO    SystemMonitor:26480 [interfaces.py:start():190] Started cpu monitoring
+2023-05-08 05:37:37,382 INFO    SystemMonitor:26480 [interfaces.py:start():190] Started disk monitoring
+2023-05-08 05:37:37,383 INFO    SystemMonitor:26480 [interfaces.py:start():190] Started gpu monitoring
+2023-05-08 05:37:37,383 INFO    SystemMonitor:26480 [interfaces.py:start():190] Started memory monitoring
+2023-05-08 05:37:37,389 INFO    SystemMonitor:26480 [interfaces.py:start():190] Started network monitoring
+2023-05-08 05:37:37,392 DEBUG   HandlerThread:26480 [system_info.py:probe():195] Probing system
+2023-05-08 05:37:37,393 DEBUG   HandlerThread:26480 [system_info.py:_probe_git():180] Probing git
+2023-05-08 05:37:37,411 ERROR   gpu       :26480 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 05:37:37,444 DEBUG   HandlerThread:26480 [system_info.py:_probe_git():188] Probing git done
+2023-05-08 05:37:37,444 DEBUG   HandlerThread:26480 [system_info.py:probe():240] Probing system done
+2023-05-08 05:37:37,444 DEBUG   HandlerThread:26480 [system_monitor.py:probe():210] {'os': 'Windows-10-10.0.22621-SP0', 'python': '3.8.15', 'heartbeatAt': '2023-05-08T12:37:37.392292', 'startedAt': '2023-05-08T12:37:36.058155', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'breakout.py', 'codePath': 'breakout.py', 'git': {'remote': 'git@github.com:qvd808/dqn-test.git', 'commit': 'ecbcc5c7e095e16182827b5ac43c17aa8d2ed804'}, 'email': 'dqvinh808@gmail.com', 'root': 'D:/Programming/project/MsPacman', 'host': 'sptrodon', 'username': 'dqvin', 'executable': 'C:\\Users\\dqvin\\anaconda3\\envs\\pygame_env\\python.exe', 'cpu_count': 14, 'cpu_count_logical': 20, 'cpu_freq': {'current': 2300.0, 'min': 0.0, 'max': 2300.0}, 'cpu_freq_per_core': [{'current': 2300.0, 'min': 0.0, 'max': 2300.0}], 'disk': {'total': 953.8671836853027, 'used': 145.73143005371094}, 'gpu': 'NVIDIA GeForce RTX 3070 Ti Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3070 Ti Laptop GPU', 'memory_total': 8589934592}], 'memory': {'total': 15.6693115234375}}
+2023-05-08 05:37:37,444 INFO    HandlerThread:26480 [system_monitor.py:probe():211] Finished collecting system info
+2023-05-08 05:37:37,444 INFO    HandlerThread:26480 [system_monitor.py:probe():214] Publishing system info
+2023-05-08 05:37:37,444 DEBUG   HandlerThread:26480 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-05-08 05:37:37,444 DEBUG   HandlerThread:26480 [system_info.py:_save_pip():67] Saving pip packages done
+2023-05-08 05:37:37,444 DEBUG   HandlerThread:26480 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-05-08 05:37:37,446 ERROR   HandlerThread:26480 [system_info.py:_save_conda():85] Error saving conda packages: [WinError 2] The system cannot find the file specified
+Traceback (most recent call last):
+  File "C:\Users\dqvin\anaconda3\envs\pygame_env\lib\site-packages\wandb\sdk\internal\system\system_info.py", line 81, in _save_conda
+    subprocess.call(
+  File "C:\Users\dqvin\anaconda3\envs\pygame_env\lib\subprocess.py", line 340, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "C:\Users\dqvin\anaconda3\envs\pygame_env\lib\subprocess.py", line 858, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\dqvin\anaconda3\envs\pygame_env\lib\subprocess.py", line 1311, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+2023-05-08 05:37:37,447 DEBUG   HandlerThread:26480 [system_info.py:_save_conda():86] Saving conda packages done
+2023-05-08 05:37:37,448 INFO    HandlerThread:26480 [system_monitor.py:probe():216] Finished publishing system info
+2023-05-08 05:37:37,451 DEBUG   SenderThread:26480 [sender.py:send():375] send: files
+2023-05-08 05:37:37,451 INFO    SenderThread:26480 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-05-08 05:37:37,458 DEBUG   HandlerThread:26480 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-08 05:37:37,458 DEBUG   SenderThread:26480 [sender.py:send_request():402] send_request: stop_status
+2023-05-08 05:37:37,699 DEBUG   SenderThread:26480 [sender.py:send():375] send: telemetry
+2023-05-08 05:37:37,763 INFO    Thread-16 :26480 [dir_watcher.py:_on_file_created():278] file/dir created: D:\Programming\project\MsPacman\wandb\run-20230508_053736-yv70ntyi\files\wandb-metadata.json
+2023-05-08 05:37:37,764 INFO    Thread-16 :26480 [dir_watcher.py:_on_file_created():278] file/dir created: D:\Programming\project\MsPacman\wandb\run-20230508_053736-yv70ntyi\files\conda-environment.yaml
+2023-05-08 05:37:37,764 INFO    Thread-16 :26480 [dir_watcher.py:_on_file_created():278] file/dir created: D:\Programming\project\MsPacman\wandb\run-20230508_053736-yv70ntyi\files\wandb-summary.json
+2023-05-08 05:37:37,764 INFO    Thread-16 :26480 [dir_watcher.py:_on_file_created():278] file/dir created: D:\Programming\project\MsPacman\wandb\run-20230508_053736-yv70ntyi\files\requirements.txt
+2023-05-08 05:37:38,323 INFO    wandb-upload_0:26480 [upload_job.py:push():137] Uploaded file C:\Users\dqvin\AppData\Local\Temp\tmpu2848x07wandb\eyubquf1-wandb-metadata.json

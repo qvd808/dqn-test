@@ -260,7 +260,7 @@ try:
 
 
 
-        if done or step_num % 500 == 0:
+        if done or (step_num % 500 == 0 and step_num > 0):
             episode_rewards.append(rolling_reward)
             rolling_reward = 0
             obs = env.reset()
