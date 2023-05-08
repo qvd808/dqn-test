@@ -68,9 +68,9 @@ def train_step(model, state_transition, tgt, num_actions, device):
     one_hot_actions = F.one_hot(torch.LongTensor(actions), num_actions).to(device)
 
 
-    loss = ((rewards +  0.994 * mask[:, 0] * qvals_next - torch.sum(qvals * one_hot_actions, -1)) ** 2).mean()
-    # loss_fn = torch.nn.SmoothL1Loss()
-    # loss = loss_fn(torch.sum(qvals * one_hot_actions), rewards + mask[:, 0] * qvals_next * 0.98 )
+    # loss = ((rewards +  0.994 * mask[:, 0] * qvals_next - torch.sum(qvals * one_hot_actions, -1)) ** 2).mean()
+    loss_fn = torch.nn.SmoothL1Loss()
+    loss = loss_fn(torch.sum(qvals * one_hot_actions), rewards + mask[:, 0] * qvals_next * 0.98 )
 
     loss.backward()
     model.optim.step()
@@ -113,13 +113,13 @@ try:
         obs, reward, done, info = env.step(action)
         rolling_reward += reward
 
-        reward = reward / 10.0
+        # reward = reward / 10.0
 
         rb.insert(Sars(last_obs, action, reward, obs, done))
 
 
 
-        if done or (step_num % 500 == 0 and step_num > 0):
+        if done or (step_num % 750 == 0 and step_num > 0):
             episode_rewards.append(rolling_reward)
             rolling_reward = 0
             obs = env.reset()

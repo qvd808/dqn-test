@@ -116,7 +116,7 @@ class RelayBuffer:
     def sample(self, num_samples):
         if self.size < self.max_size:
             return sample(self.buffer[1:self.size], num_samples)
-        return sample(self.buffer, num_samples)
+        return sample(self.buffer[1:], num_samples)
     
 class ConvModel(nn.Module):
     def __init__(self, obs_shape, num_actions, lr=0.0001) -> None:
