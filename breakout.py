@@ -18,16 +18,16 @@ test_env = gym.make('Breakout-v0')
 test_env = FrameStackingAndResizingEnv(test_env, 84, 84, 4)
 
 memory_size = 800000
-min_rb_size = 75000
+min_rb_size = 70000
 sample_size = 3500
 env_steps_before_train = 300
-tgt_model_update = 750
+tgt_model_update = 550
 wandb.init(project="dqn-tutorial", name="dqn-breakout")
 
 eps_max = 1.0
 eps_min = 0.01
 
-eps_decay = 0.99999385
+eps_decay = 0.99999585
 
 def run_test_episode(model, env, device,  max_steps = 1000): # -> rewards, movie
     frames = []
@@ -137,6 +137,8 @@ try:
             if epochs_since_tgt > tgt_model_update:
                 print("Updating target model")
                 update_tgt_model(m, tgt)
+                torch.save(m.state_dict(), f"breakout_{step_num}.pth")
+
                 epochs_since_tgt = 0
                 
             steps_since_train = 0
