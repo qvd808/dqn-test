@@ -15600,3 +15600,1013 @@ FileNotFoundError: [WinError 2] The system cannot find the file specified
 2023-05-08 00:02:18,528 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
 2023-05-08 00:02:18,528 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
 2023-05-08 00:02:18,529 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:02:19,115 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:02:19,116 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:02:19,358 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:02:19,359 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:02:19,359 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:02:19,360 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:02:19,512 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:02:19,593 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: status_report
+2023-05-08 00:02:20,119 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:02:20,198 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:02:20,198 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:02:20,198 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:02:20,200 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:02:21,077 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:02:21,078 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:02:21,078 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:02:21,079 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:02:21,129 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:02:21,130 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:02:21,526 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:02:21,841 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:02:21,842 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:02:21,842 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:02:21,842 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:02:22,130 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:02:22,625 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:02:22,626 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:02:22,626 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:02:22,627 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:02:23,137 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:02:23,138 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:02:23,531 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:02:23,532 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:02:23,532 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:02:23,532 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:02:23,532 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:02:24,152 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:02:24,429 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:02:24,430 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:02:24,430 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:02:24,431 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:02:24,631 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: status_report
+2023-05-08 00:02:24,662 DEBUG   SenderThread:18052 [sender.py:send():375] send: stats
+2023-05-08 00:02:25,159 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:02:25,160 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:02:25,202 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:02:25,203 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:02:25,203 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:02:25,203 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:02:25,539 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:02:25,780 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-08 00:02:25,780 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: stop_status
+2023-05-08 00:02:26,094 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:02:26,096 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:02:26,096 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:02:26,096 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:02:26,166 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:02:26,897 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:02:26,897 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:02:26,898 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:02:26,907 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:02:27,176 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:02:27,176 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:02:27,556 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:02:27,682 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:02:27,684 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:02:27,684 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:02:27,684 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:02:28,179 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:02:28,569 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:02:28,570 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:02:28,570 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:02:28,571 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:02:29,191 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:02:29,192 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:02:29,509 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:02:29,509 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:02:29,510 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:02:29,511 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:02:29,570 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:02:29,682 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: status_report
+2023-05-08 00:02:30,201 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:02:30,405 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:02:30,406 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:02:30,406 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:02:30,407 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:02:31,202 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:02:31,202 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:02:31,259 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:02:31,260 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:02:31,260 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:02:31,260 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:02:31,578 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:02:32,075 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:02:32,076 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:02:32,076 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:02:32,076 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:02:32,212 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:02:32,921 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:02:32,922 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:02:32,923 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:02:32,923 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:02:33,215 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:02:33,215 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:02:33,593 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:02:33,758 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:02:33,759 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:02:33,759 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:02:33,759 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:02:34,216 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:02:34,612 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:02:34,612 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:02:34,613 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:02:34,613 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:02:34,756 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: status_report
+2023-05-08 00:02:35,216 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:02:35,216 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:02:35,613 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:02:35,614 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:02:35,614 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:02:35,614 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:02:35,614 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:02:36,231 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:02:36,581 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:02:36,581 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:02:36,582 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:02:36,582 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:02:37,246 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:02:37,246 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:02:37,453 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:02:37,454 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:02:37,454 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:02:37,455 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:02:37,623 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:02:38,249 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:02:38,414 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:02:38,414 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:02:38,414 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:02:38,416 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:02:39,214 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:02:39,214 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:02:39,216 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:02:39,216 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:02:39,260 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:02:39,260 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:02:39,636 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:02:40,055 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:02:40,056 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:02:40,056 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:02:40,056 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: status_report
+2023-05-08 00:02:40,057 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:02:40,267 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:02:40,783 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-08 00:02:40,784 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: stop_status
+2023-05-08 00:02:41,127 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:02:41,128 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:02:41,128 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:02:41,128 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:02:41,282 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:02:41,282 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:02:41,653 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:02:42,790 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:02:42,791 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:02:42,792 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:02:42,793 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:02:43,294 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:02:43,296 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:02:43,674 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:02:44,597 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:02:44,597 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:02:44,598 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:02:44,598 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:02:45,142 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: status_report
+2023-05-08 00:02:45,316 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:02:45,316 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:02:45,688 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:02:46,180 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:02:46,181 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:02:46,181 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:02:46,182 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:02:46,333 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:02:47,343 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:02:47,759 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:02:47,899 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:02:47,902 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:02:47,903 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:02:47,904 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:02:48,355 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:02:49,363 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:02:49,584 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:02:49,586 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:02:49,586 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:02:49,587 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:02:49,777 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:02:50,195 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: status_report
+2023-05-08 00:02:50,372 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:02:51,387 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:02:51,597 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:02:51,598 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:02:51,598 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:02:51,598 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:02:51,800 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:02:52,403 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:02:53,340 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:02:53,341 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:02:53,342 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:02:53,342 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:02:53,414 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:02:53,414 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:02:53,827 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:02:54,675 DEBUG   SenderThread:18052 [sender.py:send():375] send: stats
+2023-05-08 00:02:55,253 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:02:55,255 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:02:55,255 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:02:55,256 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: status_report
+2023-05-08 00:02:55,257 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:02:55,438 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:02:55,438 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:02:55,781 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-08 00:02:55,781 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: stop_status
+2023-05-08 00:02:55,868 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:02:56,896 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:02:56,897 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:02:56,898 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:02:56,898 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:02:57,460 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:02:57,461 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:02:57,890 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:02:58,571 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:02:58,572 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:02:58,572 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:02:58,573 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:02:59,486 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:02:59,486 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:02:59,903 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:03:00,397 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:03:00,398 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:03:00,398 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:03:00,398 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: status_report
+2023-05-08 00:03:00,398 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:03:00,498 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:03:01,509 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:03:01,923 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:03:02,039 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:03:02,039 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:03:02,040 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:03:02,040 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:03:02,515 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:03:03,523 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:03:03,825 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:03:03,826 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:03:03,826 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:03:03,827 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:03:03,932 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:03:04,529 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:03:05,497 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: status_report
+2023-05-08 00:03:05,509 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:03:05,510 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:03:05,510 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:03:05,511 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:03:05,543 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:03:05,543 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:03:05,961 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:03:07,316 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:03:07,317 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:03:07,317 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:03:07,318 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:03:07,565 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:03:07,567 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:03:07,975 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:03:09,043 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:03:09,043 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:03:09,043 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:03:09,044 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:03:09,584 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:03:09,584 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:03:09,999 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:03:10,796 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-08 00:03:10,796 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: stop_status
+2023-05-08 00:03:10,981 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:03:11,071 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:03:11,071 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: status_report
+2023-05-08 00:03:11,071 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:03:11,072 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:03:11,609 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:03:11,610 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:03:12,023 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:03:12,649 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:03:12,650 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:03:12,650 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:03:12,651 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:03:13,632 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:03:13,633 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:03:14,043 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:03:14,236 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:03:14,237 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:03:14,237 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:03:14,238 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:03:14,644 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:03:15,673 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:03:15,993 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:03:15,994 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:03:15,994 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:03:15,995 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:03:16,051 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:03:16,165 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: status_report
+2023-05-08 00:03:16,669 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:03:17,631 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:03:17,632 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:03:17,632 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:03:17,633 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:03:17,679 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:03:17,679 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:03:18,123 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:03:19,580 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:03:19,581 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:03:19,581 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:03:19,582 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:03:19,706 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:03:19,706 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:03:20,143 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:03:21,189 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:03:21,190 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:03:21,190 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:03:21,191 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:03:21,191 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: status_report
+2023-05-08 00:03:21,722 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:03:21,723 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:03:22,178 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:03:22,847 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:03:22,848 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:03:22,848 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:03:22,848 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:03:23,734 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:03:23,735 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:03:24,197 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:03:24,680 DEBUG   SenderThread:18052 [sender.py:send():375] send: stats
+2023-05-08 00:03:24,757 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:03:24,758 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:03:24,758 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:03:24,758 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:03:25,677 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:03:25,678 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:03:25,678 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:03:25,678 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:03:25,751 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:03:25,751 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:03:25,812 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-08 00:03:25,812 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: stop_status
+2023-05-08 00:03:26,207 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:03:26,469 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:03:26,470 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:03:26,470 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:03:26,470 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: status_report
+2023-05-08 00:03:26,470 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:03:26,763 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:03:27,343 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:03:27,344 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:03:27,344 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:03:27,344 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:03:27,772 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:03:27,773 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:03:28,123 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:03:28,123 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:03:28,123 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:03:28,124 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:03:28,216 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:03:28,784 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:03:28,911 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:03:28,912 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:03:28,912 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:03:28,913 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:03:29,698 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:03:29,699 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:03:29,699 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:03:29,699 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:03:29,797 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:03:29,798 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:03:30,222 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:03:30,663 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:03:30,665 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:03:30,665 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:03:30,666 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:03:30,811 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:03:31,825 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:03:32,232 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:03:32,386 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: status_report
+2023-05-08 00:03:32,434 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:03:32,435 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:03:32,435 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:03:32,435 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:03:32,831 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:03:32,832 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:03:34,134 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:03:34,136 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:03:34,136 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:03:34,137 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:03:34,243 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:03:34,857 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:03:34,857 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:03:35,836 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:03:35,837 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:03:35,837 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:03:35,837 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:03:35,857 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:03:36,253 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:03:36,872 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:03:37,430 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: status_report
+2023-05-08 00:03:37,730 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:03:37,731 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:03:37,731 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:03:37,732 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:03:37,883 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:03:38,265 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:03:38,892 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:03:39,376 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:03:39,377 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:03:39,377 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:03:39,378 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:03:39,892 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:03:40,289 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:03:40,822 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-08 00:03:40,822 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: stop_status
+2023-05-08 00:03:40,899 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:03:40,996 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:03:41,064 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:03:41,064 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:03:41,064 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:03:41,905 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:03:42,300 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:03:42,702 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: status_report
+2023-05-08 00:03:42,792 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:03:42,793 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:03:42,793 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:03:42,794 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:03:42,911 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:03:42,911 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:03:44,317 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:03:44,454 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:03:44,455 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:03:44,455 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:03:44,455 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:03:44,930 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:03:44,931 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:03:46,236 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:03:46,237 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:03:46,237 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:03:46,238 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:03:46,340 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:03:46,953 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:03:46,953 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:03:47,927 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: status_report
+2023-05-08 00:03:47,990 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:03:47,991 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:03:47,991 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:03:47,992 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:03:48,411 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:03:48,977 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:03:48,977 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:03:49,626 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:03:49,627 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:03:49,627 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:03:49,629 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:03:49,981 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:03:50,421 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:03:50,771 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:03:50,772 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:03:50,772 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:03:50,772 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:03:50,993 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:03:50,994 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:03:51,568 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:03:51,569 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:03:51,569 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:03:51,569 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:03:52,007 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:03:52,352 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:03:52,352 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:03:52,352 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:03:52,352 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:03:52,429 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:03:53,017 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:03:53,017 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:03:53,127 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:03:53,128 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:03:53,128 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:03:53,128 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: status_report
+2023-05-08 00:03:53,129 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:03:53,968 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:03:53,968 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:03:53,969 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:03:53,969 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:03:54,030 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:03:54,440 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:03:54,684 DEBUG   SenderThread:18052 [sender.py:send():375] send: stats
+2023-05-08 00:03:54,965 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:03:54,966 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:03:54,966 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:03:54,966 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:03:55,042 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:03:55,043 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:03:55,837 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-08 00:03:55,838 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: stop_status
+2023-05-08 00:03:55,927 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:03:56,073 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:03:56,073 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:03:56,073 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:03:56,445 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:03:56,846 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:03:56,847 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:03:56,847 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:03:56,847 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:03:57,061 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:03:57,061 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:03:57,668 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:03:57,668 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:03:57,668 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:03:57,669 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:03:58,069 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:03:58,465 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:03:58,525 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:03:58,526 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:03:58,526 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:03:58,526 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: status_report
+2023-05-08 00:03:58,527 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:03:59,081 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:03:59,081 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:03:59,300 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:03:59,301 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:03:59,301 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:03:59,301 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:04:00,093 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:04:00,120 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:04:00,120 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:04:00,121 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:04:00,121 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:04:00,478 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:04:01,102 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:04:01,102 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:04:01,574 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:04:01,575 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:04:01,575 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:04:01,576 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:04:02,110 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:04:02,491 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:04:03,119 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:04:03,516 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:04:03,518 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:04:03,518 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:04:03,519 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:04:03,585 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: status_report
+2023-05-08 00:04:04,132 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:04:04,517 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:04:05,146 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:04:05,345 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:04:05,345 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:04:05,347 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:04:05,347 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:04:06,152 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:04:06,536 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:04:07,063 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:04:07,063 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:04:07,065 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:04:07,065 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:04:07,162 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:04:07,163 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:04:08,561 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:04:08,732 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: status_report
+2023-05-08 00:04:09,161 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:04:09,162 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:04:09,162 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:04:09,163 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:04:09,184 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:04:09,184 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:04:10,582 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:04:10,825 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:04:10,825 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:04:10,826 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:04:10,826 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:04:10,853 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-08 00:04:10,853 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: stop_status
+2023-05-08 00:04:11,195 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:04:11,195 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:04:11,653 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:04:11,654 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:04:11,654 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:04:11,654 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:04:12,205 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:04:12,421 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:04:12,422 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:04:12,422 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:04:12,422 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:04:12,600 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:04:13,180 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:04:13,181 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:04:13,181 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:04:13,182 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:04:13,218 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:04:13,219 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:04:13,941 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:04:13,942 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:04:13,942 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:04:13,942 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: status_report
+2023-05-08 00:04:13,943 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:04:14,229 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:04:14,607 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:04:14,784 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:04:14,784 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:04:14,784 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:04:14,785 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:04:15,240 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:04:15,241 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:04:15,535 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:04:15,536 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:04:15,536 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:04:15,538 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:04:16,254 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:04:16,351 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:04:16,352 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:04:16,353 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:04:16,353 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:04:16,619 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:04:17,209 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:04:17,210 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:04:17,211 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:04:17,211 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:04:17,265 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:04:17,265 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:04:17,973 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:04:17,973 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:04:17,973 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:04:17,973 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:04:18,280 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:04:18,657 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:04:18,772 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:04:18,772 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:04:18,773 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:04:18,773 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:04:19,035 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: status_report
+2023-05-08 00:04:19,292 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:04:19,293 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:04:19,635 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:04:19,636 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:04:19,636 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:04:19,637 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:04:20,305 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:04:20,392 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:04:20,393 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:04:20,393 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:04:20,394 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:04:20,666 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:04:21,304 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:04:21,305 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:04:21,305 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:04:21,306 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:04:21,312 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:04:21,313 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:04:22,260 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:04:22,262 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:04:22,262 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:04:22,264 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:04:22,322 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:04:22,685 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:04:23,243 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:04:23,243 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:04:23,243 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:04:23,244 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:04:23,334 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:04:23,335 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:04:24,105 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:04:24,105 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:04:24,106 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:04:24,106 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: status_report
+2023-05-08 00:04:24,106 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:04:24,335 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:04:24,694 DEBUG   SenderThread:18052 [sender.py:send():375] send: stats
+2023-05-08 00:04:24,700 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:04:25,014 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:04:25,016 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:04:25,016 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:04:25,016 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:04:25,346 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:04:25,346 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:04:25,875 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-08 00:04:25,875 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: stop_status
+2023-05-08 00:04:25,980 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:04:26,118 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:04:26,118 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:04:26,119 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:04:26,358 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:04:26,723 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:04:26,815 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:04:26,816 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:04:26,816 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:04:26,817 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:04:27,367 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:04:27,367 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:04:27,933 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:04:27,933 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:04:27,933 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:04:27,933 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:04:28,378 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:04:28,743 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:04:29,389 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:04:29,607 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:04:29,609 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:04:29,609 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:04:29,610 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: status_report
+2023-05-08 00:04:29,611 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:04:30,400 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:04:30,783 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:04:31,417 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:04:31,418 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:04:31,419 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:04:31,419 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:04:31,420 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:04:32,422 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:04:32,802 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:04:33,116 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:04:33,117 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:04:33,117 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:04:33,117 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:04:33,434 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:04:33,435 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:04:34,823 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:04:34,875 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: status_report
+2023-05-08 00:04:34,937 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:04:34,939 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:04:34,939 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:04:34,940 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:04:35,450 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:04:35,450 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:04:36,813 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:04:36,814 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:04:36,815 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:04:36,816 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:04:36,845 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:04:37,470 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:04:37,470 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:04:38,575 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:04:38,575 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:04:38,575 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:04:38,576 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:04:38,862 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:04:39,491 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:04:39,491 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:04:40,240 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: status_report
+2023-05-08 00:04:40,547 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:04:40,548 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:04:40,548 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:04:40,549 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:04:40,871 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:04:40,879 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-08 00:04:40,879 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: stop_status
+2023-05-08 00:04:41,514 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:04:41,514 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:04:42,529 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:04:42,530 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:04:42,530 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:04:42,531 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:04:42,892 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:04:43,535 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:04:43,535 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:04:44,433 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:04:44,434 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:04:44,434 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:04:44,435 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:04:44,538 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:04:44,906 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:04:45,543 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:04:46,105 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: status_report
+2023-05-08 00:04:46,344 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:04:46,346 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:04:46,346 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:04:46,347 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:04:46,554 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:04:46,916 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:04:47,560 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:04:48,253 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:04:48,255 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:04:48,255 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:04:48,255 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:04:48,573 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:04:48,991 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:04:49,579 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:04:50,213 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:04:50,215 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:04:50,215 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:04:50,215 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:04:50,590 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:04:51,005 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:04:51,603 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:04:51,938 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:04:51,938 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:04:51,939 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:04:51,939 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: status_report
+2023-05-08 00:04:51,940 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:04:52,615 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:04:53,018 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:04:53,631 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:04:53,900 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:04:53,901 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:04:53,901 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:04:53,901 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:04:54,644 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:04:54,706 DEBUG   SenderThread:18052 [sender.py:send():375] send: stats
+2023-05-08 00:04:55,045 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:04:55,608 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:04:55,609 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:04:55,609 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:04:55,610 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:04:55,657 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:04:55,657 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:04:55,890 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-08 00:04:55,890 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: stop_status
+2023-05-08 00:04:57,068 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:04:57,306 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: status_report
+2023-05-08 00:04:57,482 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:04:57,483 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:04:57,484 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:04:57,484 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:04:57,676 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:04:57,677 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:04:59,085 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:04:59,210 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:04:59,211 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:04:59,211 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:04:59,212 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:04:59,699 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:04:59,699 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:05:00,973 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:05:00,975 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:05:00,975 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:05:00,977 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:05:01,095 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:05:01,723 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:05:01,723 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:05:02,638 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: status_report
+2023-05-08 00:05:02,671 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:05:02,672 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:05:02,673 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:05:02,673 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:05:02,731 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:05:03,114 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:05:03,747 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:05:04,453 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:05:04,455 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:05:04,456 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:05:04,456 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:05:04,749 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:05:05,129 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:05:05,762 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:05:06,194 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:05:06,195 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:05:06,195 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:05:06,196 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:05:06,775 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:05:07,142 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:05:07,788 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:05:07,897 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: status_report
+2023-05-08 00:05:07,977 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:05:07,978 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:05:07,978 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:05:07,978 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:05:08,796 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:05:09,167 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:05:09,703 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:05:09,705 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:05:09,705 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:05:09,706 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:05:09,813 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:05:09,814 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:05:10,885 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-08 00:05:10,885 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: stop_status
+2023-05-08 00:05:11,194 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:05:11,504 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:05:11,505 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:05:11,506 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:05:11,506 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:05:11,834 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:05:11,834 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:05:13,172 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: status_report
+2023-05-08 00:05:13,212 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:05:13,261 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:05:13,262 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:05:13,262 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:05:13,263 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:05:13,856 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:05:13,856 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:05:15,018 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:05:15,020 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:05:15,020 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:05:15,021 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:05:15,228 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:05:15,875 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:05:15,875 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:05:16,948 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:05:16,951 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:05:16,951 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:05:16,952 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:05:17,246 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:05:17,893 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:05:17,893 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:05:18,626 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:05:18,627 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:05:18,627 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:05:18,627 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:05:18,628 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: status_report
+2023-05-08 00:05:18,902 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:05:19,336 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:05:19,916 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:05:20,550 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:05:20,551 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:05:20,551 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:05:20,553 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:05:20,930 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:05:21,357 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:05:21,938 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:05:22,576 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:05:22,576 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:05:22,577 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:05:22,577 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:05:22,949 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:05:23,376 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:05:23,958 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:05:24,375 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: status_report
+2023-05-08 00:05:24,720 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:05:24,720 DEBUG   SenderThread:18052 [sender.py:send():375] send: stats
+2023-05-08 00:05:24,721 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:05:24,723 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:05:24,725 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:05:24,966 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:05:25,393 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:05:25,898 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-08 00:05:25,899 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: stop_status
+2023-05-08 00:05:25,977 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:05:26,062 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:05:26,508 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:05:26,508 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:05:26,509 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:05:26,862 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:05:26,862 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:05:26,863 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:05:26,863 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:05:26,990 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:05:27,401 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:05:27,703 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:05:27,704 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:05:27,704 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:05:27,704 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:05:28,002 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:05:28,003 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:05:28,491 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:05:28,492 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:05:28,492 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:05:28,493 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:05:29,013 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:05:29,275 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:05:29,276 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:05:29,276 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:05:29,276 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:05:29,406 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:05:29,444 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: status_report
+2023-05-08 00:05:30,024 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:05:30,025 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:05:30,109 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:05:30,111 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:05:30,111 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:05:30,112 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:05:30,954 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:05:30,955 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:05:30,955 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:05:30,955 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:05:31,036 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:05:31,416 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:05:31,931 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:05:31,932 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:05:31,932 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:05:31,933 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:05:32,048 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:05:32,048 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:05:32,695 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:05:32,696 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:05:32,696 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:05:32,697 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:05:33,057 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:05:33,434 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:05:33,507 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:05:33,507 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:05:33,507 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:05:33,508 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:05:34,066 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:05:34,066 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:05:34,339 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:05:34,340 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:05:34,340 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:05:34,341 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:05:34,448 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: status_report
+2023-05-08 00:05:35,071 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:05:35,247 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:05:35,248 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:05:35,249 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:05:35,250 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-08 00:05:35,452 ERROR   gpu       :18052 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-08 00:05:36,073 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\output.log
+2023-05-08 00:05:36,073 INFO    Thread-16 :18052 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\files\wandb-summary.json
+2023-05-08 00:05:36,102 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-08 00:05:36,103 DEBUG   SenderThread:18052 [sender.py:send():375] send: history
+2023-05-08 00:05:36,103 DEBUG   SenderThread:18052 [sender.py:send_request():402] send_request: summary_record
+2023-05-08 00:05:36,103 INFO    SenderThread:18052 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
