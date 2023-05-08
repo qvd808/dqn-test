@@ -19,15 +19,15 @@ test_env = FrameStackingAndResizingEnv(test_env, 84, 84, 4)
 
 memory_size = 800000
 min_rb_size = 75000
-sample_size = 3000
+sample_size = 3500
 env_steps_before_train = 300
-tgt_model_update = 800
+tgt_model_update = 750
 wandb.init(project="dqn-tutorial", name="dqn-breakout")
 
 eps_max = 1.0
 eps_min = 0.01
 
-eps_decay = 0.99999285
+eps_decay = 0.99999385
 
 def run_test_episode(model, env, device,  max_steps = 1000): # -> rewards, movie
     frames = []
