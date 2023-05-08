@@ -17,10 +17,10 @@ env = FrameStackingAndResizingEnv(env, 84, 84, 4)
 test_env = gym.make('Breakout-v0')
 test_env = FrameStackingAndResizingEnv(test_env, 84, 84, 4)
 
-memory_size = 800000
+memory_size = 1000000
 min_rb_size = 70000
-sample_size = 3500
-env_steps_before_train = 300
+sample_size = 4000
+env_steps_before_train = 200
 tgt_model_update = 550
 wandb.init(project="dqn-tutorial", name="dqn-breakout")
 
@@ -68,9 +68,9 @@ def train_step(model, state_transition, tgt, num_actions, device):
     one_hot_actions = F.one_hot(torch.LongTensor(actions), num_actions).to(device)
 
 
-    # loss = ((rewards +  0.994 * mask[:, 0] * qvals_next - torch.sum(qvals * one_hot_actions, -1)) ** 2).mean()
-    loss_fn = torch.nn.SmoothL1Loss()
-    loss = loss_fn(torch.sum(qvals * one_hot_actions), rewards + mask[:, 0] * qvals_next * 0.98 )
+    loss = ((rewards +  0.994 * mask[:, 0] * qvals_next - torch.sum(qvals * one_hot_actions, -1)) ** 2).mean()
+    # loss_fn = torch.nn.SmoothL1Loss()
+    # loss = loss_fn(torch.sum(qvals * one_hot_actions), rewards + mask[:, 0] * qvals_next * 0.98 )
 
     loss.backward()
     model.optim.step()

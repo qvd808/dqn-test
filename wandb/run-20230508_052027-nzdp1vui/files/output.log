@@ -1,0 +1,26 @@
+0it [00:00, ?it/s]C:\Users\dqvin\anaconda3\envs\pygame_env\lib\site-packages\gym\utils\passive_env_checker.py:233: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  if not isinstance(terminated, (bool, np.bool8)):
+
+
+
+
+
+
+
+
+
+
+
+70187it [00:26, 268.08it/s] C:\Users\dqvin\anaconda3\envs\pygame_env\lib\site-packages\numpy\core\fromnumeric.py:3464: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+C:\Users\dqvin\anaconda3\envs\pygame_env\lib\site-packages\numpy\core\_methods.py:192: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+
+
+
+71454it [00:35, 165.76it/s]Traceback (most recent call last):
+  File "breakout_paperspace.py", line 272, in <module>
+    loss = train_step(m, rb.sample(sample_size), tgt, env.action_space.n, device)
+  File "breakout_paperspace.py", line 194, in train_step
+    cur_states = torch.stack(([torch.Tensor(s.state) for s in state_transition])).to(device)
+RuntimeError: stack expects each tensor to be equal size, but got [4, 84, 84] at entry 0 and [0] at entry 3259

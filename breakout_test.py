@@ -48,6 +48,7 @@ try:
         
         action = m(torch.Tensor(last_obs).unsqueeze(0).to(device)).max(-1)[-1].item()
         # action = env.action_space.sample()
+
         # action = 1
 
         obs, reward, done, info = env.step(action)

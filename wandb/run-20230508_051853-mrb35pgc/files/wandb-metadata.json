@@ -1,0 +1,50 @@
+{
+    "os": "Windows-10-10.0.22621-SP0",
+    "python": "3.8.15",
+    "heartbeatAt": "2023-05-08T12:18:54.458804",
+    "startedAt": "2023-05-08T12:18:53.295963",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "breakout_paperspace.py",
+    "codePath": "breakout_paperspace.py",
+    "git": {
+        "remote": "git@github.com:qvd808/dqn-test.git",
+        "commit": "9a3d5ff8c0a3bb9bca2ddf9a00d3bb88c33ca124"
+    },
+    "email": "dqvinh808@gmail.com",
+    "root": "D:/Programming/project/MsPacman",
+    "host": "sptrodon",
+    "username": "dqvin",
+    "executable": "C:\\Users\\dqvin\\anaconda3\\envs\\pygame_env\\python.exe",
+    "cpu_count": 14,
+    "cpu_count_logical": 20,
+    "cpu_freq": {
+        "current": 1506.0,
+        "min": 0.0,
+        "max": 2300.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1506.0,
+            "min": 0.0,
+            "max": 2300.0
+        }
+    ],
+    "disk": {
+        "total": 953.8671836853027,
+        "used": 145.6929817199707
+    },
+    "gpu": "NVIDIA GeForce RTX 3070 Ti Laptop GPU",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3070 Ti Laptop GPU",
+            "memory_total": 8589934592
+        }
+    ],
+    "memory": {
+        "total": 15.6693115234375
+    }
+}

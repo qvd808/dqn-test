@@ -61,6 +61,9 @@ class FrameStackingAndResizingEnv:
         im = self._preprocess_frame(im)
         self.buffer = np.stack([im] * self.n, 0)
         return self.buffer.copy()
+
+    def close(self):
+        self.env.close()
     
 
 
