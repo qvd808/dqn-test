@@ -1,0 +1,504 @@
+2023-05-07 05:05:12,858 INFO    StreamThr :29912 [internal.py:wandb_internal():86] W&B internal server running at pid: 29912, started at: 2023-05-07 05:05:12.858258
+2023-05-07 05:05:12,859 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: status
+2023-05-07 05:05:12,861 INFO    WriterThread:29912 [datastore.py:open_for_write():85] open: D:\Programming\project\MsPacman\wandb\run-20230507_050512-jc1o88f7\run-jc1o88f7.wandb
+2023-05-07 05:05:12,862 DEBUG   SenderThread:29912 [sender.py:send():375] send: header
+2023-05-07 05:05:12,886 DEBUG   SenderThread:29912 [sender.py:send():375] send: run
+2023-05-07 05:05:13,606 INFO    SenderThread:29912 [dir_watcher.py:__init__():219] watching files in: D:\Programming\project\MsPacman\wandb\run-20230507_050512-jc1o88f7\files
+2023-05-07 05:05:13,607 INFO    SenderThread:29912 [sender.py:_start_run_threads():1124] run started: jc1o88f7 with start time 1683461112.858258
+2023-05-07 05:05:13,607 DEBUG   SenderThread:29912 [sender.py:send_request():402] send_request: summary_record
+2023-05-07 05:05:13,607 INFO    SenderThread:29912 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-07 05:05:13,609 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: check_version
+2023-05-07 05:05:13,609 DEBUG   SenderThread:29912 [sender.py:send_request():402] send_request: check_version
+2023-05-07 05:05:13,843 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: run_start
+2023-05-07 05:05:13,861 DEBUG   HandlerThread:29912 [system_info.py:__init__():31] System info init
+2023-05-07 05:05:13,861 DEBUG   HandlerThread:29912 [system_info.py:__init__():46] System info init done
+2023-05-07 05:05:13,861 INFO    HandlerThread:29912 [system_monitor.py:start():181] Starting system monitor
+2023-05-07 05:05:13,861 INFO    SystemMonitor:29912 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-05-07 05:05:13,862 INFO    HandlerThread:29912 [system_monitor.py:probe():201] Collecting system info
+2023-05-07 05:05:13,865 INFO    SystemMonitor:29912 [interfaces.py:start():190] Started cpu monitoring
+2023-05-07 05:05:13,865 INFO    SystemMonitor:29912 [interfaces.py:start():190] Started disk monitoring
+2023-05-07 05:05:13,866 INFO    SystemMonitor:29912 [interfaces.py:start():190] Started gpu monitoring
+2023-05-07 05:05:13,866 INFO    SystemMonitor:29912 [interfaces.py:start():190] Started memory monitoring
+2023-05-07 05:05:13,872 INFO    SystemMonitor:29912 [interfaces.py:start():190] Started network monitoring
+2023-05-07 05:05:13,888 DEBUG   HandlerThread:29912 [system_info.py:probe():195] Probing system
+2023-05-07 05:05:13,889 DEBUG   HandlerThread:29912 [system_info.py:_probe_git():180] Probing git
+2023-05-07 05:05:13,896 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:05:13,940 DEBUG   HandlerThread:29912 [system_info.py:_probe_git():188] Probing git done
+2023-05-07 05:05:13,940 DEBUG   HandlerThread:29912 [system_info.py:probe():240] Probing system done
+2023-05-07 05:05:13,940 DEBUG   HandlerThread:29912 [system_monitor.py:probe():210] {'os': 'Windows-10-10.0.22621-SP0', 'python': '3.8.15', 'heartbeatAt': '2023-05-07T12:05:13.888200', 'startedAt': '2023-05-07T12:05:12.842030', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'breakout.py', 'codePath': 'breakout.py', 'git': {'remote': None, 'commit': 'fceba2ea9604ca362fdda53a5515d6cc11b38bca'}, 'email': 'dqvinh808@gmail.com', 'root': 'D:/Programming/project/MsPacman', 'host': 'sptrodon', 'username': 'dqvin', 'executable': 'C:\\Users\\dqvin\\anaconda3\\envs\\pygame_env\\python.exe', 'cpu_count': 14, 'cpu_count_logical': 20, 'cpu_freq': {'current': 2300.0, 'min': 0.0, 'max': 2300.0}, 'cpu_freq_per_core': [{'current': 2300.0, 'min': 0.0, 'max': 2300.0}], 'disk': {'total': 953.8671836853027, 'used': 145.4477996826172}, 'gpu': 'NVIDIA GeForce RTX 3070 Ti Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3070 Ti Laptop GPU', 'memory_total': 8589934592}], 'memory': {'total': 15.6693115234375}}
+2023-05-07 05:05:13,940 INFO    HandlerThread:29912 [system_monitor.py:probe():211] Finished collecting system info
+2023-05-07 05:05:13,940 INFO    HandlerThread:29912 [system_monitor.py:probe():214] Publishing system info
+2023-05-07 05:05:13,940 DEBUG   HandlerThread:29912 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-05-07 05:05:13,940 DEBUG   HandlerThread:29912 [system_info.py:_save_pip():67] Saving pip packages done
+2023-05-07 05:05:13,941 DEBUG   HandlerThread:29912 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-05-07 05:05:13,942 ERROR   HandlerThread:29912 [system_info.py:_save_conda():85] Error saving conda packages: [WinError 2] The system cannot find the file specified
+Traceback (most recent call last):
+  File "C:\Users\dqvin\anaconda3\envs\pygame_env\lib\site-packages\wandb\sdk\internal\system\system_info.py", line 81, in _save_conda
+    subprocess.call(
+  File "C:\Users\dqvin\anaconda3\envs\pygame_env\lib\subprocess.py", line 340, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "C:\Users\dqvin\anaconda3\envs\pygame_env\lib\subprocess.py", line 858, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\dqvin\anaconda3\envs\pygame_env\lib\subprocess.py", line 1311, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+2023-05-07 05:05:13,943 DEBUG   HandlerThread:29912 [system_info.py:_save_conda():86] Saving conda packages done
+2023-05-07 05:05:13,943 INFO    HandlerThread:29912 [system_monitor.py:probe():216] Finished publishing system info
+2023-05-07 05:05:13,946 DEBUG   SenderThread:29912 [sender.py:send():375] send: files
+2023-05-07 05:05:13,946 INFO    SenderThread:29912 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-05-07 05:05:13,952 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-07 05:05:13,953 DEBUG   SenderThread:29912 [sender.py:send_request():402] send_request: stop_status
+2023-05-07 05:05:14,334 DEBUG   SenderThread:29912 [sender.py:send():375] send: telemetry
+2023-05-07 05:05:14,618 INFO    Thread-16 :29912 [dir_watcher.py:_on_file_created():278] file/dir created: D:\Programming\project\MsPacman\wandb\run-20230507_050512-jc1o88f7\files\wandb-summary.json
+2023-05-07 05:05:14,618 INFO    Thread-16 :29912 [dir_watcher.py:_on_file_created():278] file/dir created: D:\Programming\project\MsPacman\wandb\run-20230507_050512-jc1o88f7\files\requirements.txt
+2023-05-07 05:05:14,618 INFO    Thread-16 :29912 [dir_watcher.py:_on_file_created():278] file/dir created: D:\Programming\project\MsPacman\wandb\run-20230507_050512-jc1o88f7\files\wandb-metadata.json
+2023-05-07 05:05:14,618 INFO    Thread-16 :29912 [dir_watcher.py:_on_file_created():278] file/dir created: D:\Programming\project\MsPacman\wandb\run-20230507_050512-jc1o88f7\files\conda-environment.yaml
+2023-05-07 05:05:14,690 INFO    wandb-upload_0:29912 [upload_job.py:push():137] Uploaded file C:\Users\dqvin\AppData\Local\Temp\tmpu5ee28o7wandb\sy54jwl3-wandb-metadata.json
+2023-05-07 05:05:15,627 INFO    Thread-16 :29912 [dir_watcher.py:_on_file_created():278] file/dir created: D:\Programming\project\MsPacman\wandb\run-20230507_050512-jc1o88f7\files\output.log
+2023-05-07 05:05:15,914 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:05:17,642 INFO    Thread-16 :29912 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_050512-jc1o88f7\files\output.log
+2023-05-07 05:05:17,928 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:05:17,964 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: status_report
+2023-05-07 05:05:19,672 INFO    Thread-16 :29912 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_050512-jc1o88f7\files\output.log
+2023-05-07 05:05:19,946 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:05:21,679 INFO    Thread-16 :29912 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_050512-jc1o88f7\files\output.log
+2023-05-07 05:05:21,966 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:05:23,267 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: status_report
+2023-05-07 05:05:23,461 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-07 05:05:23,689 INFO    Thread-16 :29912 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_050512-jc1o88f7\files\output.log
+2023-05-07 05:05:23,700 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-07 05:05:23,701 DEBUG   SenderThread:29912 [sender.py:send():375] send: history
+2023-05-07 05:05:23,701 DEBUG   SenderThread:29912 [sender.py:send_request():402] send_request: summary_record
+2023-05-07 05:05:23,701 INFO    SenderThread:29912 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-07 05:05:23,948 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-07 05:05:23,949 DEBUG   SenderThread:29912 [sender.py:send():375] send: history
+2023-05-07 05:05:23,949 DEBUG   SenderThread:29912 [sender.py:send_request():402] send_request: summary_record
+2023-05-07 05:05:23,949 INFO    SenderThread:29912 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-07 05:05:23,976 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:05:24,146 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-07 05:05:24,147 DEBUG   SenderThread:29912 [sender.py:send():375] send: history
+2023-05-07 05:05:24,147 DEBUG   SenderThread:29912 [sender.py:send_request():402] send_request: summary_record
+2023-05-07 05:05:24,148 INFO    SenderThread:29912 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-07 05:05:24,348 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-07 05:05:24,349 DEBUG   SenderThread:29912 [sender.py:send():375] send: history
+2023-05-07 05:05:24,349 DEBUG   SenderThread:29912 [sender.py:send_request():402] send_request: summary_record
+2023-05-07 05:05:24,350 INFO    SenderThread:29912 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-07 05:05:24,559 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-07 05:05:24,559 DEBUG   SenderThread:29912 [sender.py:send():375] send: history
+2023-05-07 05:05:24,559 DEBUG   SenderThread:29912 [sender.py:send_request():402] send_request: summary_record
+2023-05-07 05:05:24,560 INFO    SenderThread:29912 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-07 05:05:24,702 INFO    Thread-16 :29912 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_050512-jc1o88f7\files\wandb-summary.json
+2023-05-07 05:05:24,711 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-07 05:05:24,711 DEBUG   SenderThread:29912 [sender.py:send():375] send: history
+2023-05-07 05:05:24,711 DEBUG   SenderThread:29912 [sender.py:send_request():402] send_request: summary_record
+2023-05-07 05:05:24,712 INFO    SenderThread:29912 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-07 05:05:24,861 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-07 05:05:24,862 DEBUG   SenderThread:29912 [sender.py:send():375] send: history
+2023-05-07 05:05:24,862 DEBUG   SenderThread:29912 [sender.py:send_request():402] send_request: summary_record
+2023-05-07 05:05:24,862 INFO    SenderThread:29912 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-07 05:05:25,022 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-07 05:05:25,023 DEBUG   SenderThread:29912 [sender.py:send():375] send: history
+2023-05-07 05:05:25,023 DEBUG   SenderThread:29912 [sender.py:send_request():402] send_request: summary_record
+2023-05-07 05:05:25,024 INFO    SenderThread:29912 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-07 05:05:25,197 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-07 05:05:25,198 DEBUG   SenderThread:29912 [sender.py:send():375] send: history
+2023-05-07 05:05:25,198 DEBUG   SenderThread:29912 [sender.py:send_request():402] send_request: summary_record
+2023-05-07 05:05:25,198 INFO    SenderThread:29912 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-07 05:05:25,359 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-07 05:05:25,360 DEBUG   SenderThread:29912 [sender.py:send():375] send: history
+2023-05-07 05:05:25,360 DEBUG   SenderThread:29912 [sender.py:send_request():402] send_request: summary_record
+2023-05-07 05:05:25,360 INFO    SenderThread:29912 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-07 05:05:25,509 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-07 05:05:25,510 DEBUG   SenderThread:29912 [sender.py:send():375] send: history
+2023-05-07 05:05:25,510 DEBUG   SenderThread:29912 [sender.py:send_request():402] send_request: summary_record
+2023-05-07 05:05:25,511 INFO    SenderThread:29912 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-07 05:05:25,658 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-07 05:05:25,658 DEBUG   SenderThread:29912 [sender.py:send():375] send: history
+2023-05-07 05:05:25,658 DEBUG   SenderThread:29912 [sender.py:send_request():402] send_request: summary_record
+2023-05-07 05:05:25,659 INFO    SenderThread:29912 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-07 05:05:25,702 INFO    Thread-16 :29912 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_050512-jc1o88f7\files\output.log
+2023-05-07 05:05:25,703 INFO    Thread-16 :29912 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_050512-jc1o88f7\files\wandb-summary.json
+2023-05-07 05:05:25,797 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-07 05:05:25,798 DEBUG   SenderThread:29912 [sender.py:send():375] send: history
+2023-05-07 05:05:25,798 DEBUG   SenderThread:29912 [sender.py:send_request():402] send_request: summary_record
+2023-05-07 05:05:25,798 INFO    SenderThread:29912 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-07 05:05:25,944 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-07 05:05:25,944 DEBUG   SenderThread:29912 [sender.py:send():375] send: history
+2023-05-07 05:05:25,944 DEBUG   SenderThread:29912 [sender.py:send_request():402] send_request: summary_record
+2023-05-07 05:05:25,946 INFO    SenderThread:29912 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-07 05:05:25,989 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:05:26,083 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-07 05:05:26,084 DEBUG   SenderThread:29912 [sender.py:send():375] send: history
+2023-05-07 05:05:26,084 DEBUG   SenderThread:29912 [sender.py:send_request():402] send_request: summary_record
+2023-05-07 05:05:26,084 INFO    SenderThread:29912 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-07 05:05:26,224 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-07 05:05:26,225 DEBUG   SenderThread:29912 [sender.py:send():375] send: history
+2023-05-07 05:05:26,225 DEBUG   SenderThread:29912 [sender.py:send_request():402] send_request: summary_record
+2023-05-07 05:05:26,225 INFO    SenderThread:29912 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-07 05:05:26,363 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-07 05:05:26,364 DEBUG   SenderThread:29912 [sender.py:send():375] send: history
+2023-05-07 05:05:26,364 DEBUG   SenderThread:29912 [sender.py:send_request():402] send_request: summary_record
+2023-05-07 05:05:26,364 INFO    SenderThread:29912 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-07 05:05:26,568 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-07 05:05:26,569 DEBUG   SenderThread:29912 [sender.py:send():375] send: history
+2023-05-07 05:05:26,569 DEBUG   SenderThread:29912 [sender.py:send_request():402] send_request: summary_record
+2023-05-07 05:05:26,570 INFO    SenderThread:29912 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-07 05:05:26,711 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-07 05:05:26,712 DEBUG   SenderThread:29912 [sender.py:send():375] send: history
+2023-05-07 05:05:26,712 DEBUG   SenderThread:29912 [sender.py:send_request():402] send_request: summary_record
+2023-05-07 05:05:26,712 INFO    SenderThread:29912 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-07 05:05:26,714 INFO    Thread-16 :29912 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_050512-jc1o88f7\files\wandb-summary.json
+2023-05-07 05:05:27,727 INFO    Thread-16 :29912 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_050512-jc1o88f7\files\output.log
+2023-05-07 05:05:27,999 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:05:28,911 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: status_report
+2023-05-07 05:05:28,972 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-07 05:05:28,973 DEBUG   SenderThread:29912 [sender.py:send_request():402] send_request: stop_status
+2023-05-07 05:05:29,754 INFO    Thread-16 :29912 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_050512-jc1o88f7\files\output.log
+2023-05-07 05:05:30,011 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:05:32,039 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:05:34,060 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:05:34,553 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: status_report
+2023-05-07 05:05:36,091 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:05:38,106 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:05:39,871 INFO    Thread-16 :29912 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_050512-jc1o88f7\files\output.log
+2023-05-07 05:05:40,050 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: status_report
+2023-05-07 05:05:40,131 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:05:41,896 INFO    Thread-16 :29912 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_050512-jc1o88f7\files\output.log
+2023-05-07 05:05:42,155 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:05:43,987 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-07 05:05:43,990 DEBUG   SenderThread:29912 [sender.py:send_request():402] send_request: stop_status
+2023-05-07 05:05:44,201 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:05:45,891 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: status_report
+2023-05-07 05:05:46,227 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:05:46,959 INFO    Thread-16 :29912 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_050512-jc1o88f7\files\config.yaml
+2023-05-07 05:05:47,975 INFO    Thread-16 :29912 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_050512-jc1o88f7\files\output.log
+2023-05-07 05:05:48,249 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:05:50,257 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:05:51,262 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: status_report
+2023-05-07 05:05:52,271 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:05:54,291 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:05:56,295 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: status_report
+2023-05-07 05:05:56,309 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:05:58,328 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:05:58,985 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-07 05:05:58,986 DEBUG   SenderThread:29912 [sender.py:send_request():402] send_request: stop_status
+2023-05-07 05:06:00,343 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:06:02,246 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: status_report
+2023-05-07 05:06:02,362 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:06:04,384 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:06:06,406 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:06:07,304 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: status_report
+2023-05-07 05:06:08,422 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:06:10,439 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:06:12,360 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: status_report
+2023-05-07 05:06:12,465 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:06:13,877 DEBUG   SystemMonitor:29912 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-05-07 05:06:13,879 DEBUG   SenderThread:29912 [sender.py:send():375] send: stats
+2023-05-07 05:06:13,988 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-07 05:06:13,988 DEBUG   SenderThread:29912 [sender.py:send_request():402] send_request: stop_status
+2023-05-07 05:06:14,506 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:06:16,526 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:06:18,275 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: status_report
+2023-05-07 05:06:18,549 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:06:20,572 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:06:22,593 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:06:23,333 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: status_report
+2023-05-07 05:06:24,616 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:06:26,635 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:06:28,388 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: status_report
+2023-05-07 05:06:28,660 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:06:29,008 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-07 05:06:29,009 DEBUG   SenderThread:29912 [sender.py:send_request():402] send_request: stop_status
+2023-05-07 05:06:30,674 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:06:31,444 INFO    Thread-16 :29912 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_050512-jc1o88f7\files\output.log
+2023-05-07 05:06:32,689 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:06:33,517 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: status_report
+2023-05-07 05:06:34,711 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:06:36,741 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:06:38,573 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: status_report
+2023-05-07 05:06:38,763 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:06:40,794 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:06:42,817 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:06:43,625 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: status_report
+2023-05-07 05:06:43,891 DEBUG   SenderThread:29912 [sender.py:send():375] send: stats
+2023-05-07 05:06:44,018 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-07 05:06:44,019 DEBUG   SenderThread:29912 [sender.py:send_request():402] send_request: stop_status
+2023-05-07 05:06:44,861 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:06:46,878 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:06:48,896 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:06:49,307 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: status_report
+2023-05-07 05:06:50,925 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:06:52,944 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:06:54,362 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: status_report
+2023-05-07 05:06:54,965 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:06:56,981 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:06:58,991 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:06:59,031 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-07 05:06:59,031 DEBUG   SenderThread:29912 [sender.py:send_request():402] send_request: stop_status
+2023-05-07 05:06:59,752 INFO    Thread-16 :29912 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_050512-jc1o88f7\files\output.log
+2023-05-07 05:07:00,280 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: status_report
+2023-05-07 05:07:01,008 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:07:03,031 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:07:05,059 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:07:05,337 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: status_report
+2023-05-07 05:07:07,072 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:07:09,089 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:07:10,392 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: status_report
+2023-05-07 05:07:11,108 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:07:13,126 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:07:13,908 DEBUG   SenderThread:29912 [sender.py:send():375] send: stats
+2023-05-07 05:07:14,032 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-07 05:07:14,033 DEBUG   SenderThread:29912 [sender.py:send_request():402] send_request: stop_status
+2023-05-07 05:07:15,172 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:07:16,291 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: status_report
+2023-05-07 05:07:17,189 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:07:17,957 INFO    Thread-16 :29912 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_050512-jc1o88f7\files\output.log
+2023-05-07 05:07:19,210 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:07:21,231 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:07:22,001 INFO    Thread-16 :29912 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_050512-jc1o88f7\files\output.log
+2023-05-07 05:07:22,080 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: status_report
+2023-05-07 05:07:23,247 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:07:25,267 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:07:27,137 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: status_report
+2023-05-07 05:07:27,291 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:07:29,049 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-07 05:07:29,051 DEBUG   SenderThread:29912 [sender.py:send_request():402] send_request: stop_status
+2023-05-07 05:07:29,310 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:07:31,333 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:07:33,098 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: status_report
+2023-05-07 05:07:33,356 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:07:34,232 INFO    Thread-16 :29912 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_050512-jc1o88f7\files\output.log
+2023-05-07 05:07:35,386 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:07:37,406 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:07:38,157 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: status_report
+2023-05-07 05:07:39,432 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:07:41,445 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:07:43,224 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: status_report
+2023-05-07 05:07:43,465 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:07:43,922 DEBUG   SenderThread:29912 [sender.py:send():375] send: stats
+2023-05-07 05:07:44,063 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-07 05:07:44,065 DEBUG   SenderThread:29912 [sender.py:send_request():402] send_request: stop_status
+2023-05-07 05:07:45,508 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:07:47,523 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:07:48,607 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: status_report
+2023-05-07 05:07:49,538 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:07:50,415 INFO    Thread-16 :29912 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_050512-jc1o88f7\files\output.log
+2023-05-07 05:07:51,557 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:07:53,573 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:07:53,669 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: status_report
+2023-05-07 05:07:55,592 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:07:57,616 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:07:58,717 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: status_report
+2023-05-07 05:07:59,074 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-07 05:07:59,075 DEBUG   SenderThread:29912 [sender.py:send_request():402] send_request: stop_status
+2023-05-07 05:07:59,632 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:08:01,651 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:08:03,668 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:08:04,355 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: status_report
+2023-05-07 05:08:05,692 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:08:07,595 INFO    Thread-16 :29912 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_050512-jc1o88f7\files\output.log
+2023-05-07 05:08:07,720 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:08:09,742 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:08:10,160 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: status_report
+2023-05-07 05:08:11,760 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:08:13,777 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:08:13,932 DEBUG   SenderThread:29912 [sender.py:send():375] send: stats
+2023-05-07 05:08:14,075 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-07 05:08:14,076 DEBUG   SenderThread:29912 [sender.py:send_request():402] send_request: stop_status
+2023-05-07 05:08:15,333 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: status_report
+2023-05-07 05:08:15,833 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:08:17,860 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:08:19,887 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:08:20,387 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: status_report
+2023-05-07 05:08:21,904 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:08:23,913 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:08:25,444 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: status_report
+2023-05-07 05:08:25,946 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:08:27,970 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:08:29,091 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-07 05:08:29,091 DEBUG   SenderThread:29912 [sender.py:send_request():402] send_request: stop_status
+2023-05-07 05:08:29,990 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:08:31,346 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: status_report
+2023-05-07 05:08:32,014 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:08:34,040 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:08:36,064 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:08:36,397 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: status_report
+2023-05-07 05:08:38,090 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:08:40,107 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:08:41,439 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: status_report
+2023-05-07 05:08:42,126 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:08:43,946 DEBUG   SenderThread:29912 [sender.py:send():375] send: stats
+2023-05-07 05:08:44,087 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-07 05:08:44,088 DEBUG   SenderThread:29912 [sender.py:send_request():402] send_request: stop_status
+2023-05-07 05:08:44,148 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:08:46,190 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:08:47,362 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: status_report
+2023-05-07 05:08:48,219 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:08:50,243 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:08:52,262 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:08:52,415 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: status_report
+2023-05-07 05:08:54,288 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:08:56,310 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:08:57,463 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: status_report
+2023-05-07 05:08:58,324 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:08:59,095 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-07 05:08:59,095 DEBUG   SenderThread:29912 [sender.py:send_request():402] send_request: stop_status
+2023-05-07 05:09:00,336 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:09:02,345 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:09:03,431 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: status_report
+2023-05-07 05:09:04,361 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:09:06,374 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:09:08,397 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:09:08,461 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: status_report
+2023-05-07 05:09:10,415 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:09:12,440 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:09:13,518 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: status_report
+2023-05-07 05:09:13,955 DEBUG   SenderThread:29912 [sender.py:send():375] send: stats
+2023-05-07 05:09:14,123 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-07 05:09:14,124 DEBUG   SenderThread:29912 [sender.py:send_request():402] send_request: stop_status
+2023-05-07 05:09:14,460 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:09:16,513 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:09:18,527 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:09:19,416 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: status_report
+2023-05-07 05:09:20,549 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:09:22,574 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:09:24,468 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: status_report
+2023-05-07 05:09:24,586 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:09:26,620 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:09:28,634 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:09:29,124 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-07 05:09:29,125 DEBUG   SenderThread:29912 [sender.py:send_request():402] send_request: stop_status
+2023-05-07 05:09:30,386 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: status_report
+2023-05-07 05:09:30,650 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:09:32,672 ERROR   gpu       :29912 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 05:09:34,218 DEBUG   SenderThread:29912 [sender.py:send():375] send: exit
+2023-05-07 05:09:34,218 INFO    SenderThread:29912 [sender.py:send_exit():598] handling exit code: 0
+2023-05-07 05:09:34,218 INFO    SenderThread:29912 [sender.py:send_exit():600] handling runtime: 260
+2023-05-07 05:09:34,220 INFO    SenderThread:29912 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-07 05:09:34,220 INFO    SenderThread:29912 [sender.py:send_exit():606] send defer
+2023-05-07 05:09:34,220 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: defer
+2023-05-07 05:09:34,221 INFO    HandlerThread:29912 [handler.py:handle_request_defer():170] handle defer: 0
+2023-05-07 05:09:34,221 DEBUG   SenderThread:29912 [sender.py:send_request():402] send_request: defer
+2023-05-07 05:09:34,222 INFO    SenderThread:29912 [sender.py:send_request_defer():622] handle sender defer: 0
+2023-05-07 05:09:34,222 INFO    SenderThread:29912 [sender.py:transition_state():626] send defer: 1
+2023-05-07 05:09:34,222 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: defer
+2023-05-07 05:09:34,222 INFO    HandlerThread:29912 [handler.py:handle_request_defer():170] handle defer: 1
+2023-05-07 05:09:34,222 DEBUG   SenderThread:29912 [sender.py:send_request():402] send_request: defer
+2023-05-07 05:09:34,222 INFO    SenderThread:29912 [sender.py:send_request_defer():622] handle sender defer: 1
+2023-05-07 05:09:34,222 INFO    SenderThread:29912 [sender.py:transition_state():626] send defer: 2
+2023-05-07 05:09:34,223 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: defer
+2023-05-07 05:09:34,223 INFO    HandlerThread:29912 [handler.py:handle_request_defer():170] handle defer: 2
+2023-05-07 05:09:34,223 INFO    HandlerThread:29912 [system_monitor.py:finish():190] Stopping system monitor
+2023-05-07 05:09:34,223 DEBUG   SystemMonitor:29912 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-05-07 05:09:34,229 INFO    HandlerThread:29912 [interfaces.py:finish():202] Joined cpu monitor
+2023-05-07 05:09:34,229 DEBUG   SystemMonitor:29912 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-05-07 05:09:34,229 INFO    HandlerThread:29912 [interfaces.py:finish():202] Joined disk monitor
+2023-05-07 05:09:34,250 INFO    HandlerThread:29912 [interfaces.py:finish():202] Joined gpu monitor
+2023-05-07 05:09:34,250 INFO    HandlerThread:29912 [interfaces.py:finish():202] Joined memory monitor
+2023-05-07 05:09:34,250 INFO    HandlerThread:29912 [interfaces.py:finish():202] Joined network monitor
+2023-05-07 05:09:34,251 DEBUG   SenderThread:29912 [sender.py:send_request():402] send_request: defer
+2023-05-07 05:09:34,251 INFO    SenderThread:29912 [sender.py:send_request_defer():622] handle sender defer: 2
+2023-05-07 05:09:34,251 INFO    SenderThread:29912 [sender.py:transition_state():626] send defer: 3
+2023-05-07 05:09:34,251 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: defer
+2023-05-07 05:09:34,251 INFO    HandlerThread:29912 [handler.py:handle_request_defer():170] handle defer: 3
+2023-05-07 05:09:34,261 DEBUG   SenderThread:29912 [sender.py:send():375] send: stats
+2023-05-07 05:09:34,262 DEBUG   SenderThread:29912 [sender.py:send():375] send: history
+2023-05-07 05:09:34,262 DEBUG   SenderThread:29912 [sender.py:send_request():402] send_request: summary_record
+2023-05-07 05:09:34,262 INFO    SenderThread:29912 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-07 05:09:34,262 DEBUG   SenderThread:29912 [sender.py:send_request():402] send_request: defer
+2023-05-07 05:09:34,262 INFO    SenderThread:29912 [sender.py:send_request_defer():622] handle sender defer: 3
+2023-05-07 05:09:34,262 INFO    SenderThread:29912 [sender.py:transition_state():626] send defer: 4
+2023-05-07 05:09:34,262 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: defer
+2023-05-07 05:09:34,262 INFO    HandlerThread:29912 [handler.py:handle_request_defer():170] handle defer: 4
+2023-05-07 05:09:34,262 DEBUG   SenderThread:29912 [sender.py:send_request():402] send_request: defer
+2023-05-07 05:09:34,262 INFO    SenderThread:29912 [sender.py:send_request_defer():622] handle sender defer: 4
+2023-05-07 05:09:34,262 INFO    SenderThread:29912 [sender.py:transition_state():626] send defer: 5
+2023-05-07 05:09:34,262 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: defer
+2023-05-07 05:09:34,262 INFO    HandlerThread:29912 [handler.py:handle_request_defer():170] handle defer: 5
+2023-05-07 05:09:34,262 DEBUG   SenderThread:29912 [sender.py:send():375] send: summary
+2023-05-07 05:09:34,262 INFO    SenderThread:29912 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-07 05:09:34,264 DEBUG   SenderThread:29912 [sender.py:send_request():402] send_request: defer
+2023-05-07 05:09:34,264 INFO    SenderThread:29912 [sender.py:send_request_defer():622] handle sender defer: 5
+2023-05-07 05:09:34,264 INFO    SenderThread:29912 [sender.py:transition_state():626] send defer: 6
+2023-05-07 05:09:34,264 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: defer
+2023-05-07 05:09:34,264 INFO    HandlerThread:29912 [handler.py:handle_request_defer():170] handle defer: 6
+2023-05-07 05:09:34,264 DEBUG   SenderThread:29912 [sender.py:send_request():402] send_request: defer
+2023-05-07 05:09:34,264 INFO    SenderThread:29912 [sender.py:send_request_defer():622] handle sender defer: 6
+2023-05-07 05:09:34,264 INFO    SenderThread:29912 [sender.py:transition_state():626] send defer: 7
+2023-05-07 05:09:34,265 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: status_report
+2023-05-07 05:09:34,265 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: defer
+2023-05-07 05:09:34,265 INFO    HandlerThread:29912 [handler.py:handle_request_defer():170] handle defer: 7
+2023-05-07 05:09:34,265 DEBUG   SenderThread:29912 [sender.py:send_request():402] send_request: defer
+2023-05-07 05:09:34,265 INFO    SenderThread:29912 [sender.py:send_request_defer():622] handle sender defer: 7
+2023-05-07 05:09:34,528 INFO    Thread-16 :29912 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_050512-jc1o88f7\files\wandb-summary.json
+2023-05-07 05:09:35,262 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-07 05:09:36,531 INFO    Thread-16 :29912 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_050512-jc1o88f7\files\output.log
+2023-05-07 05:09:37,966 INFO    SenderThread:29912 [sender.py:transition_state():626] send defer: 8
+2023-05-07 05:09:37,966 DEBUG   SenderThread:29912 [sender.py:send_request():402] send_request: poll_exit
+2023-05-07 05:09:37,967 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: defer
+2023-05-07 05:09:37,967 INFO    HandlerThread:29912 [handler.py:handle_request_defer():170] handle defer: 8
+2023-05-07 05:09:37,968 DEBUG   SenderThread:29912 [sender.py:send_request():402] send_request: defer
+2023-05-07 05:09:37,968 INFO    SenderThread:29912 [sender.py:send_request_defer():622] handle sender defer: 8
+2023-05-07 05:09:37,968 INFO    SenderThread:29912 [sender.py:transition_state():626] send defer: 9
+2023-05-07 05:09:37,969 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: defer
+2023-05-07 05:09:37,969 INFO    HandlerThread:29912 [handler.py:handle_request_defer():170] handle defer: 9
+2023-05-07 05:09:37,969 DEBUG   SenderThread:29912 [sender.py:send_request():402] send_request: defer
+2023-05-07 05:09:37,969 INFO    SenderThread:29912 [sender.py:send_request_defer():622] handle sender defer: 9
+2023-05-07 05:09:37,969 INFO    SenderThread:29912 [dir_watcher.py:finish():365] shutting down directory watcher
+2023-05-07 05:09:38,543 INFO    SenderThread:29912 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_050512-jc1o88f7\files\output.log
+2023-05-07 05:09:38,544 INFO    SenderThread:29912 [dir_watcher.py:finish():395] scan: D:\Programming\project\MsPacman\wandb\run-20230507_050512-jc1o88f7\files
+2023-05-07 05:09:38,544 INFO    SenderThread:29912 [dir_watcher.py:finish():409] scan save: D:\Programming\project\MsPacman\wandb\run-20230507_050512-jc1o88f7\files\conda-environment.yaml conda-environment.yaml
+2023-05-07 05:09:38,544 INFO    SenderThread:29912 [dir_watcher.py:finish():409] scan save: D:\Programming\project\MsPacman\wandb\run-20230507_050512-jc1o88f7\files\config.yaml config.yaml
+2023-05-07 05:09:38,544 INFO    SenderThread:29912 [dir_watcher.py:finish():409] scan save: D:\Programming\project\MsPacman\wandb\run-20230507_050512-jc1o88f7\files\output.log output.log
+2023-05-07 05:09:38,544 INFO    SenderThread:29912 [dir_watcher.py:finish():409] scan save: D:\Programming\project\MsPacman\wandb\run-20230507_050512-jc1o88f7\files\requirements.txt requirements.txt
+2023-05-07 05:09:38,547 INFO    SenderThread:29912 [dir_watcher.py:finish():409] scan save: D:\Programming\project\MsPacman\wandb\run-20230507_050512-jc1o88f7\files\wandb-metadata.json wandb-metadata.json
+2023-05-07 05:09:38,547 INFO    SenderThread:29912 [dir_watcher.py:finish():409] scan save: D:\Programming\project\MsPacman\wandb\run-20230507_050512-jc1o88f7\files\wandb-summary.json wandb-summary.json
+2023-05-07 05:09:38,550 INFO    SenderThread:29912 [sender.py:transition_state():626] send defer: 10
+2023-05-07 05:09:38,550 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: defer
+2023-05-07 05:09:38,552 INFO    HandlerThread:29912 [handler.py:handle_request_defer():170] handle defer: 10
+2023-05-07 05:09:38,555 DEBUG   SenderThread:29912 [sender.py:send_request():402] send_request: defer
+2023-05-07 05:09:38,555 INFO    SenderThread:29912 [sender.py:send_request_defer():622] handle sender defer: 10
+2023-05-07 05:09:38,555 INFO    SenderThread:29912 [file_pusher.py:finish():167] shutting down file pusher
+2023-05-07 05:09:39,195 INFO    wandb-upload_1:29912 [upload_job.py:push():137] Uploaded file D:\Programming\project\MsPacman\wandb\run-20230507_050512-jc1o88f7\files\output.log
+2023-05-07 05:09:39,760 INFO    wandb-upload_3:29912 [upload_job.py:push():137] Uploaded file D:\Programming\project\MsPacman\wandb\run-20230507_050512-jc1o88f7\files\wandb-summary.json
+2023-05-07 05:09:39,864 INFO    wandb-upload_0:29912 [upload_job.py:push():137] Uploaded file D:\Programming\project\MsPacman\wandb\run-20230507_050512-jc1o88f7\files\config.yaml
+2023-05-07 05:09:40,204 INFO    wandb-upload_2:29912 [upload_job.py:push():137] Uploaded file D:\Programming\project\MsPacman\wandb\run-20230507_050512-jc1o88f7\files\requirements.txt
+2023-05-07 05:09:40,294 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-07 05:09:40,419 INFO    Thread-15 :29912 [sender.py:transition_state():626] send defer: 11
+2023-05-07 05:09:40,420 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: defer
+2023-05-07 05:09:40,420 INFO    HandlerThread:29912 [handler.py:handle_request_defer():170] handle defer: 11
+2023-05-07 05:09:40,422 DEBUG   SenderThread:29912 [sender.py:send_request():402] send_request: defer
+2023-05-07 05:09:40,423 INFO    SenderThread:29912 [sender.py:send_request_defer():622] handle sender defer: 11
+2023-05-07 05:09:40,423 INFO    SenderThread:29912 [file_pusher.py:join():172] waiting for file pusher
+2023-05-07 05:09:40,423 INFO    SenderThread:29912 [sender.py:transition_state():626] send defer: 12
+2023-05-07 05:09:40,423 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: defer
+2023-05-07 05:09:40,424 INFO    HandlerThread:29912 [handler.py:handle_request_defer():170] handle defer: 12
+2023-05-07 05:09:40,424 DEBUG   SenderThread:29912 [sender.py:send_request():402] send_request: defer
+2023-05-07 05:09:40,425 INFO    SenderThread:29912 [sender.py:send_request_defer():622] handle sender defer: 12
+2023-05-07 05:09:41,495 INFO    SenderThread:29912 [sender.py:transition_state():626] send defer: 13
+2023-05-07 05:09:41,495 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: defer
+2023-05-07 05:09:41,495 INFO    HandlerThread:29912 [handler.py:handle_request_defer():170] handle defer: 13
+2023-05-07 05:09:41,496 DEBUG   SenderThread:29912 [sender.py:send_request():402] send_request: defer
+2023-05-07 05:09:41,496 INFO    SenderThread:29912 [sender.py:send_request_defer():622] handle sender defer: 13
+2023-05-07 05:09:41,496 INFO    SenderThread:29912 [sender.py:transition_state():626] send defer: 14
+2023-05-07 05:09:41,497 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: defer
+2023-05-07 05:09:41,497 INFO    HandlerThread:29912 [handler.py:handle_request_defer():170] handle defer: 14
+2023-05-07 05:09:41,497 DEBUG   SenderThread:29912 [sender.py:send():375] send: final
+2023-05-07 05:09:41,498 DEBUG   SenderThread:29912 [sender.py:send():375] send: footer
+2023-05-07 05:09:41,498 DEBUG   SenderThread:29912 [sender.py:send_request():402] send_request: defer
+2023-05-07 05:09:41,498 INFO    SenderThread:29912 [sender.py:send_request_defer():622] handle sender defer: 14
+2023-05-07 05:09:41,499 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-07 05:09:41,499 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: server_info
+2023-05-07 05:09:41,499 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: get_summary
+2023-05-07 05:09:41,500 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: sampled_history
+2023-05-07 05:09:41,501 DEBUG   SenderThread:29912 [sender.py:send_request():402] send_request: poll_exit
+2023-05-07 05:09:41,501 DEBUG   SenderThread:29912 [sender.py:send_request():402] send_request: server_info
+2023-05-07 05:09:41,958 INFO    MainThread:29912 [wandb_run.py:_footer_history_summary_info():3469] rendering history
+2023-05-07 05:09:41,958 INFO    MainThread:29912 [wandb_run.py:_footer_history_summary_info():3501] rendering summary
+2023-05-07 05:09:41,963 INFO    MainThread:29912 [wandb_run.py:_footer_sync_info():3428] logging synced files
+2023-05-07 05:09:41,965 DEBUG   HandlerThread:29912 [handler.py:handle_request():144] handle_request: shutdown
+2023-05-07 05:09:41,965 INFO    HandlerThread:29912 [handler.py:finish():845] shutting down handler
+2023-05-07 05:09:42,513 INFO    WriterThread:29912 [datastore.py:close():298] close: D:\Programming\project\MsPacman\wandb\run-20230507_050512-jc1o88f7\run-jc1o88f7.wandb
+2023-05-07 05:09:42,966 INFO    SenderThread:29912 [sender.py:finish():1550] shutting down sender
+2023-05-07 05:09:42,966 INFO    SenderThread:29912 [file_pusher.py:finish():167] shutting down file pusher
+2023-05-07 05:09:42,966 INFO    SenderThread:29912 [file_pusher.py:join():172] waiting for file pusher

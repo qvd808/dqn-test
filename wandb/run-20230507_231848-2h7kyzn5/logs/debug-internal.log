@@ -1,0 +1,5 @@
+2023-05-07 23:18:48,527 INFO    StreamThr :18052 [internal.py:wandb_internal():86] W&B internal server running at pid: 18052, started at: 2023-05-07 23:18:48.525023
+2023-05-07 23:18:48,528 DEBUG   HandlerThread:18052 [handler.py:handle_request():144] handle_request: status
+2023-05-07 23:18:48,529 INFO    WriterThread:18052 [datastore.py:open_for_write():85] open: D:\Programming\project\MsPacman\wandb\run-20230507_231848-2h7kyzn5\run-2h7kyzn5.wandb
+2023-05-07 23:18:48,531 DEBUG   SenderThread:18052 [sender.py:send():375] send: header
+2023-05-07 23:18:48,554 DEBUG   SenderThread:18052 [sender.py:send():375] send: run

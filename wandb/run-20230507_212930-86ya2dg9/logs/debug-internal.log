@@ -1,0 +1,227 @@
+2023-05-07 21:29:30,207 INFO    StreamThr :1832 [internal.py:wandb_internal():86] W&B internal server running at pid: 1832, started at: 2023-05-07 21:29:30.207181
+2023-05-07 21:29:30,208 DEBUG   HandlerThread:1832 [handler.py:handle_request():144] handle_request: status
+2023-05-07 21:29:30,209 INFO    WriterThread:1832 [datastore.py:open_for_write():85] open: D:\Programming\project\MsPacman\wandb\run-20230507_212930-86ya2dg9\run-86ya2dg9.wandb
+2023-05-07 21:29:30,210 DEBUG   SenderThread:1832 [sender.py:send():375] send: header
+2023-05-07 21:29:30,234 DEBUG   SenderThread:1832 [sender.py:send():375] send: run
+2023-05-07 21:29:30,853 INFO    SenderThread:1832 [dir_watcher.py:__init__():219] watching files in: D:\Programming\project\MsPacman\wandb\run-20230507_212930-86ya2dg9\files
+2023-05-07 21:29:30,856 DEBUG   HandlerThread:1832 [handler.py:handle_request():144] handle_request: check_version
+2023-05-07 21:29:30,861 INFO    SenderThread:1832 [sender.py:_start_run_threads():1124] run started: 86ya2dg9 with start time 1683520170.206186
+2023-05-07 21:29:30,861 DEBUG   SenderThread:1832 [sender.py:send_request():402] send_request: summary_record
+2023-05-07 21:29:30,861 INFO    SenderThread:1832 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-07 21:29:30,861 DEBUG   SenderThread:1832 [sender.py:send_request():402] send_request: check_version
+2023-05-07 21:29:31,162 DEBUG   HandlerThread:1832 [handler.py:handle_request():144] handle_request: run_start
+2023-05-07 21:29:31,177 DEBUG   HandlerThread:1832 [system_info.py:__init__():31] System info init
+2023-05-07 21:29:31,178 DEBUG   HandlerThread:1832 [system_info.py:__init__():46] System info init done
+2023-05-07 21:29:31,178 INFO    HandlerThread:1832 [system_monitor.py:start():181] Starting system monitor
+2023-05-07 21:29:31,178 INFO    SystemMonitor:1832 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-05-07 21:29:31,178 INFO    HandlerThread:1832 [system_monitor.py:probe():201] Collecting system info
+2023-05-07 21:29:31,181 INFO    SystemMonitor:1832 [interfaces.py:start():190] Started cpu monitoring
+2023-05-07 21:29:31,182 INFO    SystemMonitor:1832 [interfaces.py:start():190] Started disk monitoring
+2023-05-07 21:29:31,182 INFO    SystemMonitor:1832 [interfaces.py:start():190] Started gpu monitoring
+2023-05-07 21:29:31,183 INFO    SystemMonitor:1832 [interfaces.py:start():190] Started memory monitoring
+2023-05-07 21:29:31,191 INFO    SystemMonitor:1832 [interfaces.py:start():190] Started network monitoring
+2023-05-07 21:29:31,198 DEBUG   HandlerThread:1832 [system_info.py:probe():195] Probing system
+2023-05-07 21:29:31,199 DEBUG   HandlerThread:1832 [system_info.py:_probe_git():180] Probing git
+2023-05-07 21:29:31,210 ERROR   gpu       :1832 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 21:29:31,247 DEBUG   HandlerThread:1832 [system_info.py:_probe_git():188] Probing git done
+2023-05-07 21:29:31,247 DEBUG   HandlerThread:1832 [system_info.py:probe():240] Probing system done
+2023-05-07 21:29:31,247 DEBUG   HandlerThread:1832 [system_monitor.py:probe():210] {'os': 'Windows-10-10.0.22621-SP0', 'python': '3.8.15', 'heartbeatAt': '2023-05-08T04:29:31.198632', 'startedAt': '2023-05-08T04:29:30.193582', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'breakout.py', 'codePath': 'breakout.py', 'git': {'remote': None, 'commit': 'fceba2ea9604ca362fdda53a5515d6cc11b38bca'}, 'email': 'dqvinh808@gmail.com', 'root': 'D:/Programming/project/MsPacman', 'host': 'sptrodon', 'username': 'dqvin', 'executable': 'C:\\Users\\dqvin\\anaconda3\\envs\\pygame_env\\python.exe', 'cpu_count': 14, 'cpu_count_logical': 20, 'cpu_freq': {'current': 2300.0, 'min': 0.0, 'max': 2300.0}, 'cpu_freq_per_core': [{'current': 2300.0, 'min': 0.0, 'max': 2300.0}], 'disk': {'total': 953.8671836853027, 'used': 145.5529441833496}, 'gpu': 'NVIDIA GeForce RTX 3070 Ti Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3070 Ti Laptop GPU', 'memory_total': 8589934592}], 'memory': {'total': 15.6693115234375}}
+2023-05-07 21:29:31,247 INFO    HandlerThread:1832 [system_monitor.py:probe():211] Finished collecting system info
+2023-05-07 21:29:31,247 INFO    HandlerThread:1832 [system_monitor.py:probe():214] Publishing system info
+2023-05-07 21:29:31,248 DEBUG   HandlerThread:1832 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-05-07 21:29:31,248 DEBUG   HandlerThread:1832 [system_info.py:_save_pip():67] Saving pip packages done
+2023-05-07 21:29:31,248 DEBUG   HandlerThread:1832 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-05-07 21:29:31,257 ERROR   HandlerThread:1832 [system_info.py:_save_conda():85] Error saving conda packages: [WinError 2] The system cannot find the file specified
+Traceback (most recent call last):
+  File "C:\Users\dqvin\anaconda3\envs\pygame_env\lib\site-packages\wandb\sdk\internal\system\system_info.py", line 81, in _save_conda
+    subprocess.call(
+  File "C:\Users\dqvin\anaconda3\envs\pygame_env\lib\subprocess.py", line 340, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "C:\Users\dqvin\anaconda3\envs\pygame_env\lib\subprocess.py", line 858, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\dqvin\anaconda3\envs\pygame_env\lib\subprocess.py", line 1311, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+2023-05-07 21:29:31,258 DEBUG   HandlerThread:1832 [system_info.py:_save_conda():86] Saving conda packages done
+2023-05-07 21:29:31,258 INFO    HandlerThread:1832 [system_monitor.py:probe():216] Finished publishing system info
+2023-05-07 21:29:31,260 DEBUG   SenderThread:1832 [sender.py:send():375] send: files
+2023-05-07 21:29:31,260 INFO    SenderThread:1832 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-05-07 21:29:31,267 DEBUG   HandlerThread:1832 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-07 21:29:31,268 DEBUG   SenderThread:1832 [sender.py:send_request():402] send_request: stop_status
+2023-05-07 21:29:31,594 DEBUG   SenderThread:1832 [sender.py:send():375] send: telemetry
+2023-05-07 21:29:31,863 INFO    Thread-16 :1832 [dir_watcher.py:_on_file_created():278] file/dir created: D:\Programming\project\MsPacman\wandb\run-20230507_212930-86ya2dg9\files\conda-environment.yaml
+2023-05-07 21:29:31,863 INFO    Thread-16 :1832 [dir_watcher.py:_on_file_created():278] file/dir created: D:\Programming\project\MsPacman\wandb\run-20230507_212930-86ya2dg9\files\wandb-summary.json
+2023-05-07 21:29:31,863 INFO    Thread-16 :1832 [dir_watcher.py:_on_file_created():278] file/dir created: D:\Programming\project\MsPacman\wandb\run-20230507_212930-86ya2dg9\files\requirements.txt
+2023-05-07 21:29:31,864 INFO    Thread-16 :1832 [dir_watcher.py:_on_file_created():278] file/dir created: D:\Programming\project\MsPacman\wandb\run-20230507_212930-86ya2dg9\files\wandb-metadata.json
+2023-05-07 21:29:32,160 INFO    wandb-upload_0:1832 [upload_job.py:push():137] Uploaded file C:\Users\dqvin\AppData\Local\Temp\tmprns9ncmowandb\00yjzztp-wandb-metadata.json
+2023-05-07 21:29:32,872 INFO    Thread-16 :1832 [dir_watcher.py:_on_file_created():278] file/dir created: D:\Programming\project\MsPacman\wandb\run-20230507_212930-86ya2dg9\files\output.log
+2023-05-07 21:29:33,219 ERROR   gpu       :1832 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 21:29:34,888 INFO    Thread-16 :1832 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_212930-86ya2dg9\files\output.log
+2023-05-07 21:29:35,239 ERROR   gpu       :1832 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 21:29:35,310 DEBUG   HandlerThread:1832 [handler.py:handle_request():144] handle_request: status_report
+2023-05-07 21:29:36,899 INFO    Thread-16 :1832 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_212930-86ya2dg9\files\output.log
+2023-05-07 21:29:37,252 ERROR   gpu       :1832 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 21:29:38,915 INFO    Thread-16 :1832 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_212930-86ya2dg9\files\output.log
+2023-05-07 21:29:39,272 ERROR   gpu       :1832 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 21:29:40,365 DEBUG   HandlerThread:1832 [handler.py:handle_request():144] handle_request: status_report
+2023-05-07 21:29:40,933 INFO    Thread-16 :1832 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_212930-86ya2dg9\files\output.log
+2023-05-07 21:29:41,298 ERROR   gpu       :1832 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 21:29:42,955 INFO    Thread-16 :1832 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_212930-86ya2dg9\files\output.log
+2023-05-07 21:29:43,321 ERROR   gpu       :1832 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 21:29:44,973 INFO    Thread-16 :1832 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_212930-86ya2dg9\files\output.log
+2023-05-07 21:29:45,344 ERROR   gpu       :1832 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 21:29:45,379 DEBUG   HandlerThread:1832 [handler.py:handle_request():144] handle_request: status_report
+2023-05-07 21:29:46,268 DEBUG   HandlerThread:1832 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-07 21:29:46,268 DEBUG   SenderThread:1832 [sender.py:send_request():402] send_request: stop_status
+2023-05-07 21:29:46,985 INFO    Thread-16 :1832 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_212930-86ya2dg9\files\output.log
+2023-05-07 21:29:47,354 ERROR   gpu       :1832 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 21:29:49,000 INFO    Thread-16 :1832 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_212930-86ya2dg9\files\output.log
+2023-05-07 21:29:49,374 ERROR   gpu       :1832 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 21:29:50,406 DEBUG   HandlerThread:1832 [handler.py:handle_request():144] handle_request: status_report
+2023-05-07 21:29:51,014 INFO    Thread-16 :1832 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_212930-86ya2dg9\files\output.log
+2023-05-07 21:29:51,385 ERROR   gpu       :1832 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 21:29:53,036 INFO    Thread-16 :1832 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_212930-86ya2dg9\files\output.log
+2023-05-07 21:29:53,404 ERROR   gpu       :1832 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 21:29:55,055 INFO    Thread-16 :1832 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_212930-86ya2dg9\files\output.log
+2023-05-07 21:29:55,426 ERROR   gpu       :1832 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 21:29:55,436 DEBUG   HandlerThread:1832 [handler.py:handle_request():144] handle_request: status_report
+2023-05-07 21:29:57,077 INFO    Thread-16 :1832 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_212930-86ya2dg9\files\output.log
+2023-05-07 21:29:57,449 ERROR   gpu       :1832 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 21:29:59,099 INFO    Thread-16 :1832 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_212930-86ya2dg9\files\output.log
+2023-05-07 21:29:59,465 ERROR   gpu       :1832 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-07 21:30:00,618 DEBUG   HandlerThread:1832 [handler.py:handle_request():144] handle_request: status_report
+2023-05-07 21:30:01,041 DEBUG   SenderThread:1832 [sender.py:send():375] send: exit
+2023-05-07 21:30:01,041 INFO    SenderThread:1832 [sender.py:send_exit():598] handling exit code: 1
+2023-05-07 21:30:01,041 INFO    SenderThread:1832 [sender.py:send_exit():600] handling runtime: 29
+2023-05-07 21:30:01,042 INFO    SenderThread:1832 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-07 21:30:01,042 INFO    SenderThread:1832 [sender.py:send_exit():606] send defer
+2023-05-07 21:30:01,042 DEBUG   HandlerThread:1832 [handler.py:handle_request():144] handle_request: defer
+2023-05-07 21:30:01,042 INFO    HandlerThread:1832 [handler.py:handle_request_defer():170] handle defer: 0
+2023-05-07 21:30:01,042 DEBUG   SenderThread:1832 [sender.py:send_request():402] send_request: defer
+2023-05-07 21:30:01,042 INFO    SenderThread:1832 [sender.py:send_request_defer():622] handle sender defer: 0
+2023-05-07 21:30:01,042 INFO    SenderThread:1832 [sender.py:transition_state():626] send defer: 1
+2023-05-07 21:30:01,042 DEBUG   HandlerThread:1832 [handler.py:handle_request():144] handle_request: defer
+2023-05-07 21:30:01,043 INFO    HandlerThread:1832 [handler.py:handle_request_defer():170] handle defer: 1
+2023-05-07 21:30:01,043 DEBUG   SenderThread:1832 [sender.py:send_request():402] send_request: defer
+2023-05-07 21:30:01,043 INFO    SenderThread:1832 [sender.py:send_request_defer():622] handle sender defer: 1
+2023-05-07 21:30:01,043 INFO    SenderThread:1832 [sender.py:transition_state():626] send defer: 2
+2023-05-07 21:30:01,043 DEBUG   HandlerThread:1832 [handler.py:handle_request():144] handle_request: defer
+2023-05-07 21:30:01,043 INFO    HandlerThread:1832 [handler.py:handle_request_defer():170] handle defer: 2
+2023-05-07 21:30:01,043 INFO    HandlerThread:1832 [system_monitor.py:finish():190] Stopping system monitor
+2023-05-07 21:30:01,043 DEBUG   SystemMonitor:1832 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-05-07 21:30:01,043 DEBUG   SystemMonitor:1832 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-05-07 21:30:01,043 DEBUG   SystemMonitor:1832 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-05-07 21:30:01,044 INFO    HandlerThread:1832 [interfaces.py:finish():202] Joined cpu monitor
+2023-05-07 21:30:01,048 INFO    HandlerThread:1832 [interfaces.py:finish():202] Joined disk monitor
+2023-05-07 21:30:01,067 INFO    HandlerThread:1832 [interfaces.py:finish():202] Joined gpu monitor
+2023-05-07 21:30:01,068 INFO    HandlerThread:1832 [interfaces.py:finish():202] Joined memory monitor
+2023-05-07 21:30:01,068 INFO    HandlerThread:1832 [interfaces.py:finish():202] Joined network monitor
+2023-05-07 21:30:01,068 DEBUG   SenderThread:1832 [sender.py:send_request():402] send_request: defer
+2023-05-07 21:30:01,068 INFO    SenderThread:1832 [sender.py:send_request_defer():622] handle sender defer: 2
+2023-05-07 21:30:01,068 INFO    SenderThread:1832 [sender.py:transition_state():626] send defer: 3
+2023-05-07 21:30:01,068 DEBUG   SenderThread:1832 [sender.py:send():375] send: stats
+2023-05-07 21:30:01,068 DEBUG   HandlerThread:1832 [handler.py:handle_request():144] handle_request: defer
+2023-05-07 21:30:01,068 INFO    HandlerThread:1832 [handler.py:handle_request_defer():170] handle defer: 3
+2023-05-07 21:30:01,069 DEBUG   SenderThread:1832 [sender.py:send_request():402] send_request: defer
+2023-05-07 21:30:01,069 INFO    SenderThread:1832 [sender.py:send_request_defer():622] handle sender defer: 3
+2023-05-07 21:30:01,069 INFO    SenderThread:1832 [sender.py:transition_state():626] send defer: 4
+2023-05-07 21:30:01,069 DEBUG   HandlerThread:1832 [handler.py:handle_request():144] handle_request: defer
+2023-05-07 21:30:01,069 INFO    HandlerThread:1832 [handler.py:handle_request_defer():170] handle defer: 4
+2023-05-07 21:30:01,069 DEBUG   SenderThread:1832 [sender.py:send_request():402] send_request: defer
+2023-05-07 21:30:01,069 INFO    SenderThread:1832 [sender.py:send_request_defer():622] handle sender defer: 4
+2023-05-07 21:30:01,069 INFO    SenderThread:1832 [sender.py:transition_state():626] send defer: 5
+2023-05-07 21:30:01,069 DEBUG   HandlerThread:1832 [handler.py:handle_request():144] handle_request: defer
+2023-05-07 21:30:01,069 INFO    HandlerThread:1832 [handler.py:handle_request_defer():170] handle defer: 5
+2023-05-07 21:30:01,069 DEBUG   SenderThread:1832 [sender.py:send():375] send: summary
+2023-05-07 21:30:01,070 INFO    SenderThread:1832 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-07 21:30:01,070 DEBUG   SenderThread:1832 [sender.py:send_request():402] send_request: defer
+2023-05-07 21:30:01,070 INFO    SenderThread:1832 [sender.py:send_request_defer():622] handle sender defer: 5
+2023-05-07 21:30:01,070 INFO    SenderThread:1832 [sender.py:transition_state():626] send defer: 6
+2023-05-07 21:30:01,070 DEBUG   HandlerThread:1832 [handler.py:handle_request():144] handle_request: defer
+2023-05-07 21:30:01,070 INFO    HandlerThread:1832 [handler.py:handle_request_defer():170] handle defer: 6
+2023-05-07 21:30:01,070 DEBUG   SenderThread:1832 [sender.py:send_request():402] send_request: defer
+2023-05-07 21:30:01,070 INFO    SenderThread:1832 [sender.py:send_request_defer():622] handle sender defer: 6
+2023-05-07 21:30:01,070 INFO    SenderThread:1832 [sender.py:transition_state():626] send defer: 7
+2023-05-07 21:30:01,070 DEBUG   HandlerThread:1832 [handler.py:handle_request():144] handle_request: status_report
+2023-05-07 21:30:01,070 DEBUG   HandlerThread:1832 [handler.py:handle_request():144] handle_request: defer
+2023-05-07 21:30:01,070 INFO    HandlerThread:1832 [handler.py:handle_request_defer():170] handle defer: 7
+2023-05-07 21:30:01,071 DEBUG   SenderThread:1832 [sender.py:send_request():402] send_request: defer
+2023-05-07 21:30:01,071 INFO    SenderThread:1832 [sender.py:send_request_defer():622] handle sender defer: 7
+2023-05-07 21:30:01,114 INFO    Thread-16 :1832 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_212930-86ya2dg9\files\config.yaml
+2023-05-07 21:30:01,114 INFO    Thread-16 :1832 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_212930-86ya2dg9\files\wandb-summary.json
+2023-05-07 21:30:01,114 INFO    Thread-16 :1832 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_212930-86ya2dg9\files\output.log
+2023-05-07 21:30:02,079 DEBUG   HandlerThread:1832 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-07 21:30:02,321 INFO    SenderThread:1832 [sender.py:transition_state():626] send defer: 8
+2023-05-07 21:30:02,322 DEBUG   SenderThread:1832 [sender.py:send_request():402] send_request: poll_exit
+2023-05-07 21:30:02,322 DEBUG   HandlerThread:1832 [handler.py:handle_request():144] handle_request: defer
+2023-05-07 21:30:02,322 INFO    HandlerThread:1832 [handler.py:handle_request_defer():170] handle defer: 8
+2023-05-07 21:30:02,322 DEBUG   SenderThread:1832 [sender.py:send_request():402] send_request: defer
+2023-05-07 21:30:02,323 INFO    SenderThread:1832 [sender.py:send_request_defer():622] handle sender defer: 8
+2023-05-07 21:30:02,323 INFO    SenderThread:1832 [sender.py:transition_state():626] send defer: 9
+2023-05-07 21:30:02,323 DEBUG   HandlerThread:1832 [handler.py:handle_request():144] handle_request: defer
+2023-05-07 21:30:02,323 INFO    HandlerThread:1832 [handler.py:handle_request_defer():170] handle defer: 9
+2023-05-07 21:30:02,324 DEBUG   SenderThread:1832 [sender.py:send_request():402] send_request: defer
+2023-05-07 21:30:02,324 INFO    SenderThread:1832 [sender.py:send_request_defer():622] handle sender defer: 9
+2023-05-07 21:30:02,324 INFO    SenderThread:1832 [dir_watcher.py:finish():365] shutting down directory watcher
+2023-05-07 21:30:03,094 DEBUG   HandlerThread:1832 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-07 21:30:03,142 INFO    Thread-16 :1832 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Programming\project\MsPacman\wandb\run-20230507_212930-86ya2dg9\files\output.log
+2023-05-07 21:30:03,142 INFO    SenderThread:1832 [dir_watcher.py:finish():395] scan: D:\Programming\project\MsPacman\wandb\run-20230507_212930-86ya2dg9\files
+2023-05-07 21:30:03,143 INFO    SenderThread:1832 [dir_watcher.py:finish():409] scan save: D:\Programming\project\MsPacman\wandb\run-20230507_212930-86ya2dg9\files\conda-environment.yaml conda-environment.yaml
+2023-05-07 21:30:03,143 INFO    SenderThread:1832 [dir_watcher.py:finish():409] scan save: D:\Programming\project\MsPacman\wandb\run-20230507_212930-86ya2dg9\files\config.yaml config.yaml
+2023-05-07 21:30:03,143 INFO    SenderThread:1832 [dir_watcher.py:finish():409] scan save: D:\Programming\project\MsPacman\wandb\run-20230507_212930-86ya2dg9\files\output.log output.log
+2023-05-07 21:30:03,145 INFO    SenderThread:1832 [dir_watcher.py:finish():409] scan save: D:\Programming\project\MsPacman\wandb\run-20230507_212930-86ya2dg9\files\requirements.txt requirements.txt
+2023-05-07 21:30:03,147 INFO    SenderThread:1832 [dir_watcher.py:finish():409] scan save: D:\Programming\project\MsPacman\wandb\run-20230507_212930-86ya2dg9\files\wandb-metadata.json wandb-metadata.json
+2023-05-07 21:30:03,147 INFO    SenderThread:1832 [dir_watcher.py:finish():409] scan save: D:\Programming\project\MsPacman\wandb\run-20230507_212930-86ya2dg9\files\wandb-summary.json wandb-summary.json
+2023-05-07 21:30:03,147 INFO    SenderThread:1832 [sender.py:transition_state():626] send defer: 10
+2023-05-07 21:30:03,148 DEBUG   SenderThread:1832 [sender.py:send_request():402] send_request: poll_exit
+2023-05-07 21:30:03,148 DEBUG   HandlerThread:1832 [handler.py:handle_request():144] handle_request: defer
+2023-05-07 21:30:03,152 INFO    HandlerThread:1832 [handler.py:handle_request_defer():170] handle defer: 10
+2023-05-07 21:30:03,152 DEBUG   SenderThread:1832 [sender.py:send_request():402] send_request: defer
+2023-05-07 21:30:03,152 INFO    SenderThread:1832 [sender.py:send_request_defer():622] handle sender defer: 10
+2023-05-07 21:30:03,152 INFO    SenderThread:1832 [file_pusher.py:finish():167] shutting down file pusher
+2023-05-07 21:30:03,755 INFO    wandb-upload_1:1832 [upload_job.py:push():137] Uploaded file D:\Programming\project\MsPacman\wandb\run-20230507_212930-86ya2dg9\files\output.log
+2023-05-07 21:30:03,982 INFO    wandb-upload_0:1832 [upload_job.py:push():137] Uploaded file D:\Programming\project\MsPacman\wandb\run-20230507_212930-86ya2dg9\files\config.yaml
+2023-05-07 21:30:03,994 INFO    wandb-upload_3:1832 [upload_job.py:push():137] Uploaded file D:\Programming\project\MsPacman\wandb\run-20230507_212930-86ya2dg9\files\wandb-summary.json
+2023-05-07 21:30:04,062 INFO    wandb-upload_2:1832 [upload_job.py:push():137] Uploaded file D:\Programming\project\MsPacman\wandb\run-20230507_212930-86ya2dg9\files\requirements.txt
+2023-05-07 21:30:04,103 DEBUG   HandlerThread:1832 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-07 21:30:04,104 DEBUG   SenderThread:1832 [sender.py:send_request():402] send_request: poll_exit
+2023-05-07 21:30:04,271 INFO    Thread-15 :1832 [sender.py:transition_state():626] send defer: 11
+2023-05-07 21:30:04,273 DEBUG   HandlerThread:1832 [handler.py:handle_request():144] handle_request: defer
+2023-05-07 21:30:04,273 INFO    HandlerThread:1832 [handler.py:handle_request_defer():170] handle defer: 11
+2023-05-07 21:30:04,274 DEBUG   SenderThread:1832 [sender.py:send_request():402] send_request: defer
+2023-05-07 21:30:04,274 INFO    SenderThread:1832 [sender.py:send_request_defer():622] handle sender defer: 11
+2023-05-07 21:30:04,275 INFO    SenderThread:1832 [file_pusher.py:join():172] waiting for file pusher
+2023-05-07 21:30:04,275 INFO    SenderThread:1832 [sender.py:transition_state():626] send defer: 12
+2023-05-07 21:30:04,275 DEBUG   HandlerThread:1832 [handler.py:handle_request():144] handle_request: defer
+2023-05-07 21:30:04,275 INFO    HandlerThread:1832 [handler.py:handle_request_defer():170] handle defer: 12
+2023-05-07 21:30:04,276 DEBUG   SenderThread:1832 [sender.py:send_request():402] send_request: defer
+2023-05-07 21:30:04,276 INFO    SenderThread:1832 [sender.py:send_request_defer():622] handle sender defer: 12
+2023-05-07 21:30:04,631 INFO    SenderThread:1832 [sender.py:transition_state():626] send defer: 13
+2023-05-07 21:30:04,631 DEBUG   HandlerThread:1832 [handler.py:handle_request():144] handle_request: defer
+2023-05-07 21:30:04,632 INFO    HandlerThread:1832 [handler.py:handle_request_defer():170] handle defer: 13
+2023-05-07 21:30:04,632 DEBUG   SenderThread:1832 [sender.py:send_request():402] send_request: defer
+2023-05-07 21:30:04,632 INFO    SenderThread:1832 [sender.py:send_request_defer():622] handle sender defer: 13
+2023-05-07 21:30:04,632 INFO    SenderThread:1832 [sender.py:transition_state():626] send defer: 14
+2023-05-07 21:30:04,632 DEBUG   HandlerThread:1832 [handler.py:handle_request():144] handle_request: defer
+2023-05-07 21:30:04,632 INFO    HandlerThread:1832 [handler.py:handle_request_defer():170] handle defer: 14
+2023-05-07 21:30:04,633 DEBUG   SenderThread:1832 [sender.py:send():375] send: final
+2023-05-07 21:30:04,633 DEBUG   SenderThread:1832 [sender.py:send():375] send: footer
+2023-05-07 21:30:04,633 DEBUG   SenderThread:1832 [sender.py:send_request():402] send_request: defer
+2023-05-07 21:30:04,633 INFO    SenderThread:1832 [sender.py:send_request_defer():622] handle sender defer: 14
+2023-05-07 21:30:04,633 DEBUG   HandlerThread:1832 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-07 21:30:04,633 DEBUG   SenderThread:1832 [sender.py:send_request():402] send_request: poll_exit
+2023-05-07 21:30:04,634 DEBUG   HandlerThread:1832 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-07 21:30:04,634 DEBUG   HandlerThread:1832 [handler.py:handle_request():144] handle_request: server_info
+2023-05-07 21:30:04,634 DEBUG   HandlerThread:1832 [handler.py:handle_request():144] handle_request: get_summary
+2023-05-07 21:30:04,634 DEBUG   SenderThread:1832 [sender.py:send_request():402] send_request: poll_exit
+2023-05-07 21:30:04,634 DEBUG   HandlerThread:1832 [handler.py:handle_request():144] handle_request: sampled_history
+2023-05-07 21:30:04,634 DEBUG   SenderThread:1832 [sender.py:send_request():402] send_request: server_info
+2023-05-07 21:30:05,157 INFO    MainThread:1832 [wandb_run.py:_footer_history_summary_info():3469] rendering history
+2023-05-07 21:30:05,158 INFO    MainThread:1832 [wandb_run.py:_footer_history_summary_info():3501] rendering summary
+2023-05-07 21:30:05,158 INFO    MainThread:1832 [wandb_run.py:_footer_sync_info():3428] logging synced files
+2023-05-07 21:30:05,160 DEBUG   HandlerThread:1832 [handler.py:handle_request():144] handle_request: shutdown
+2023-05-07 21:30:05,161 INFO    HandlerThread:1832 [handler.py:finish():845] shutting down handler
+2023-05-07 21:30:05,638 INFO    WriterThread:1832 [datastore.py:close():298] close: D:\Programming\project\MsPacman\wandb\run-20230507_212930-86ya2dg9\run-86ya2dg9.wandb
+2023-05-07 21:30:06,168 INFO    SenderThread:1832 [sender.py:finish():1550] shutting down sender
+2023-05-07 21:30:06,168 INFO    SenderThread:1832 [file_pusher.py:finish():167] shutting down file pusher
+2023-05-07 21:30:06,168 INFO    SenderThread:1832 [file_pusher.py:join():172] waiting for file pusher
