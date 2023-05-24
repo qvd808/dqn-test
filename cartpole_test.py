@@ -22,7 +22,7 @@ eps_decay = 0.9999955
 
 obs = env.reset()[0]
 m = Model_Cartpole(env.observation_space.shape[0], env.action_space.n)
-m.load_state_dict(torch.load("cartpole_withtargetmodel_ultimate.pth"))
+m.load_state_dict(torch.load("cartpole_youtube1.pth"))
 
 rb = RelayBuffer()
 steps_since_train = 0
@@ -35,33 +35,31 @@ rolling_reward = 0
 tq = tqdm()
 
 try:
-    while True:
-        tq.update(1)
-        eps = eps_decay ** (step_num)
+    for i in range(100):
+        while True:
+            tq.update(1)
+            eps = eps_decay ** (step_num)
 
-        last_obs = obs
+            last_obs = obs
 
-        action = m(torch.Tensor(last_obs)).max(-1)[-1].item()
+            action = m(torch.Tensor(last_obs)).max(-1)[-1].item()
 
-        obs, reward, done, terminate, info = env.step(action)
-        rolling_reward += reward
-
-
-        rb.insert(Sars(last_obs, action, reward, obs, done))
-
-        if rolling_reward == 500:
-            break
+            obs, reward, done, terminate, info = env.step(action)
+            rolling_reward += reward
 
 
-        if done:
-            episode_rewards.append(rolling_reward)
-            rolling_reward = 0
-            # obs = env.reset()[0]
-            print(rolling_reward)
-            break
+            rb.insert(Sars(last_obs, action, reward, obs, done))
 
-        steps_since_train += 1
-        step_num += 1
+
+            if done or rolling_reward == 500:
+                episode_rewards.append(rolling_reward)
+                obs = env.reset()[0]
+                print(rolling_reward)
+                rolling_reward = 0
+                break
+
+            steps_since_train += 1
+            step_num += 1
 
 
 
@@ -69,3 +67,5 @@ except KeyboardInterrupt:
     pass
 
 env.close()
+
+print(f"The average rewards is: {np.mean(episode_rewards)}")

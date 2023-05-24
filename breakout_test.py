@@ -27,7 +27,7 @@ device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
 obs = env.reset()
 m = ConvModel(env.observation_space.shape, env.action_space.n).to(device)
-m.load_state_dict(torch.load("breakout_youtube.pth"))
+m.load_state_dict(torch.load("breakout_332053.pth"))
 
 rb = RelayBuffer()
 steps_since_train = 0
