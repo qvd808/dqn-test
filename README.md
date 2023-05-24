@@ -2,4 +2,4 @@
 
 #### Cartpole
 
- <video loop src="./results/cartpole_result.gif">  Cartpole Results </video> 
+![](https://github.com/qvd808/dqn-test/blob/main/results/cartpole_result.gif)
