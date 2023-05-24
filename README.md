@@ -2,4 +2,4 @@
 
 #### Cartpole
 
- <video loop src="./results/cartpole_result.mp4">  Cartpole Results </video> 
+ <video loop src="./results/cartpole_result.gif">  Cartpole Results </video> 
